@@ -1,0 +1,446 @@
+{
+  "generated_on": "2026-10-15",
+  "model": "27 scored criteria, scenario-specific stack share, and 23 direct-duel dimensions",
+  "scores_are_editorial_ranges_not_measurements": true,
+  "sensitivity_interpretation": "High-confidence draws are center-weighted; medium-confidence draws are uniform; low-confidence draws use a random optimistic or pessimistic triangular mode within the editorial interval. Monte Carlo frequencies show stability of this chosen model only; they are not objective probabilities.",
+  "scenario_results": {
+    "balanced": {
+      "winner": "vscode",
+      "runner_up": "idea",
+      "winner_range": [
+        8.0,
+        9.3
+      ],
+      "runner_up_range": [
+        8.0,
+        9.2
+      ],
+      "overlap": true
+    },
+    "rust": {
+      "winner": "rustrover",
+      "runner_up": "vscode",
+      "winner_range": [
+        8.1,
+        9.3
+      ],
+      "runner_up_range": [
+        7.9,
+        9.2
+      ],
+      "overlap": true
+    },
+    "web": {
+      "winner": "vscode",
+      "runner_up": "idea",
+      "winner_range": [
+        8.2,
+        9.5
+      ],
+      "runner_up_range": [
+        8.3,
+        9.4
+      ],
+      "overlap": true
+    },
+    "python": {
+      "winner": "idea",
+      "runner_up": "pycharm",
+      "winner_range": [
+        8.4,
+        9.5
+      ],
+      "runner_up_range": [
+        8.6,
+        9.3
+      ],
+      "overlap": true
+    },
+    "agents": {
+      "winner": "devin",
+      "runner_up": "idea",
+      "winner_range": [
+        7.5,
+        9.3
+      ],
+      "runner_up_range": [
+        7.7,
+        9.0
+      ],
+      "overlap": true
+    },
+    "privacy": {
+      "winner": "neovim",
+      "runner_up": "vscodium",
+      "winner_range": [
+        7.3,
+        9.3
+      ],
+      "runner_up_range": [
+        7.3,
+        9.1
+      ],
+      "overlap": true
+    },
+    "remote": {
+      "winner": "vscode",
+      "runner_up": "idea",
+      "winner_range": [
+        8.1,
+        9.4
+      ],
+      "runner_up_range": [
+        7.9,
+        9.0
+      ],
+      "overlap": true
+    },
+    "windows": {
+      "winner": "vscode",
+      "runner_up": "idea",
+      "winner_range": [
+        8.0,
+        9.4
+      ],
+      "runner_up_range": [
+        7.9,
+        9.1
+      ],
+      "overlap": true
+    },
+    "linux": {
+      "winner": "vscode",
+      "runner_up": "idea",
+      "winner_range": [
+        7.9,
+        9.3
+      ],
+      "runner_up_range": [
+        7.8,
+        9.1
+      ],
+      "overlap": true
+    },
+    "macos": {
+      "winner": "vscode",
+      "runner_up": "idea",
+      "winner_range": [
+        7.9,
+        9.3
+      ],
+      "runner_up_range": [
+        7.8,
+        9.1
+      ],
+      "overlap": true
+    }
+  },
+  "balanced_sensitivity": {
+    "weights": {
+      "trials": 20000,
+      "frequency_is_model_stability_not_market_probability": true,
+      "candidates": {
+        "vscode": {
+          "win_frequency_percent_rounded": 88,
+          "median_rank": 1.0,
+          "score_p10_p90": [
+            8.6,
+            8.7
+          ]
+        },
+        "idea": {
+          "win_frequency_percent_rounded": 12,
+          "median_rank": 2.0,
+          "score_p10_p90": [
+            8.6,
+            8.7
+          ]
+        },
+        "rustrover": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 7.0,
+          "score_p10_p90": [
+            7.7,
+            7.8
+          ]
+        },
+        "pycharm": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 4.0,
+          "score_p10_p90": [
+            8.2,
+            8.3
+          ]
+        },
+        "vscodium": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 3.0,
+          "score_p10_p90": [
+            8.3,
+            8.3
+          ]
+        },
+        "cursor": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 8.0,
+          "score_p10_p90": [
+            7.6,
+            7.7
+          ]
+        },
+        "zed": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 6.0,
+          "score_p10_p90": [
+            7.9,
+            7.9
+          ]
+        },
+        "neovim": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 5.0,
+          "score_p10_p90": [
+            8.0,
+            8.1
+          ]
+        },
+        "sublime": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 12.0,
+          "score_p10_p90": [
+            6.8,
+            6.9
+          ]
+        },
+        "devin": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 10.0,
+          "score_p10_p90": [
+            7.4,
+            7.5
+          ]
+        },
+        "kiro": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 11.0,
+          "score_p10_p90": [
+            7.2,
+            7.3
+          ]
+        },
+        "antigravity": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 9.0,
+          "score_p10_p90": [
+            7.5,
+            7.6
+          ]
+        }
+      }
+    },
+    "ratings": {
+      "trials": 20000,
+      "frequency_is_model_stability_not_market_probability": true,
+      "candidates": {
+        "vscode": {
+          "win_frequency_percent_rounded": 58,
+          "median_rank": 1.0,
+          "score_p10_p90": [
+            8.5,
+            8.8
+          ]
+        },
+        "idea": {
+          "win_frequency_percent_rounded": 42,
+          "median_rank": 2.0,
+          "score_p10_p90": [
+            8.5,
+            8.7
+          ]
+        },
+        "rustrover": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 7.0,
+          "score_p10_p90": [
+            7.6,
+            7.9
+          ]
+        },
+        "pycharm": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 4.0,
+          "score_p10_p90": [
+            8.2,
+            8.4
+          ]
+        },
+        "vscodium": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 3.0,
+          "score_p10_p90": [
+            8.2,
+            8.4
+          ]
+        },
+        "cursor": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 8.0,
+          "score_p10_p90": [
+            7.4,
+            7.9
+          ]
+        },
+        "zed": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 6.0,
+          "score_p10_p90": [
+            7.6,
+            8.1
+          ]
+        },
+        "neovim": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 5.0,
+          "score_p10_p90": [
+            7.9,
+            8.3
+          ]
+        },
+        "sublime": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 12.0,
+          "score_p10_p90": [
+            6.8,
+            7.0
+          ]
+        },
+        "devin": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 10.0,
+          "score_p10_p90": [
+            7.2,
+            7.7
+          ]
+        },
+        "kiro": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 11.0,
+          "score_p10_p90": [
+            7.1,
+            7.5
+          ]
+        },
+        "antigravity": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 9.0,
+          "score_p10_p90": [
+            7.3,
+            7.8
+          ]
+        }
+      }
+    },
+    "combined": {
+      "trials": 20000,
+      "frequency_is_model_stability_not_market_probability": true,
+      "candidates": {
+        "vscode": {
+          "win_frequency_percent_rounded": 59,
+          "median_rank": 1.0,
+          "score_p10_p90": [
+            8.5,
+            8.8
+          ]
+        },
+        "idea": {
+          "win_frequency_percent_rounded": 41,
+          "median_rank": 2.0,
+          "score_p10_p90": [
+            8.5,
+            8.7
+          ]
+        },
+        "rustrover": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 7.0,
+          "score_p10_p90": [
+            7.6,
+            7.9
+          ]
+        },
+        "pycharm": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 4.0,
+          "score_p10_p90": [
+            8.2,
+            8.4
+          ]
+        },
+        "vscodium": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 3.0,
+          "score_p10_p90": [
+            8.2,
+            8.4
+          ]
+        },
+        "cursor": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 8.0,
+          "score_p10_p90": [
+            7.4,
+            7.9
+          ]
+        },
+        "zed": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 6.0,
+          "score_p10_p90": [
+            7.6,
+            8.1
+          ]
+        },
+        "neovim": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 5.0,
+          "score_p10_p90": [
+            7.9,
+            8.3
+          ]
+        },
+        "sublime": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 12.0,
+          "score_p10_p90": [
+            6.8,
+            7.0
+          ]
+        },
+        "devin": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 10.0,
+          "score_p10_p90": [
+            7.2,
+            7.7
+          ]
+        },
+        "kiro": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 11.0,
+          "score_p10_p90": [
+            7.0,
+            7.5
+          ]
+        },
+        "antigravity": {
+          "win_frequency_percent_rounded": 0,
+          "median_rank": 9.0,
+          "score_p10_p90": [
+            7.3,
+            7.8
+          ]
+        }
+      }
+    }
+  }
+}

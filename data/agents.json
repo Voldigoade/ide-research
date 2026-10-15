@@ -1,0 +1,258 @@
+[
+  {
+    "id": "vscode",
+    "name": "Visual Studio Code",
+    "ide_complete": "yes",
+    "architecture": "Microsoft Code OSS distribution",
+    "copilot": "native first-party integration",
+    "codex": "external CLI or MCP workflow",
+    "claude": "external CLI or extension",
+    "acp": "not established first-party",
+    "mcp": "documented",
+    "byok": "provider dependent",
+    "local_models": "provider/extension dependent",
+    "without_ai": "strong editor and language ecosystem",
+    "sources": [
+      "vscode.agent",
+      "vscode.copilot",
+      "vscode.models",
+      "vscode.mcp",
+      "codex.cli",
+      "claude.code"
+    ]
+  },
+  {
+    "id": "idea",
+    "name": "IntelliJ IDEA Ultimate",
+    "ide_complete": "yes",
+    "architecture": "JetBrains integrated IDE with official Rust and Python plugins",
+    "copilot": "official Marketplace plugin",
+    "codex": "AI Assistant and ACP/Air",
+    "claude": "Claude Agent in AI Assistant; Claude Code external/ACP",
+    "acp": "AI Assistant integrations plus JetBrains Air in IDEs EAP (2026-10); external ACP agents, WSL example documented",
+    "mcp": "built-in server and client",
+    "byok": "BYOK for selected providers/agents; Air can use supported provider credentials or existing local agent authorization",
+    "local_models": "Ollama/LM Studio for AI Assistant features; agents cannot use local models",
+    "without_ai": "very strong integrated IDE",
+    "sources": [
+      "air.eap",
+      "air.ide-overview",
+      "air.product",
+      "air.wsl",
+      "idea.agent-activation",
+      "idea.air",
+      "idea.air-wsl",
+      "idea.byok",
+      "idea.copilot",
+      "idea.local-models",
+      "idea.mcp-host",
+      "idea.python",
+      "idea.rust",
+      "idea.wsl-benchmark"
+    ]
+  },
+  {
+    "id": "rustrover",
+    "name": "RustRover",
+    "ide_complete": "yes",
+    "architecture": "JetBrains Rust IDE",
+    "copilot": "official plugin",
+    "codex": "JetBrains AI/ACP options; verify product version",
+    "claude": "JetBrains AI/ACP options; verify product version",
+    "acp": "JetBrains AI/Air",
+    "mcp": "JetBrains MCP",
+    "byok": "JetBrains provider options",
+    "local_models": "AI features, not agents",
+    "without_ai": "strong Rust IDE",
+    "sources": [
+      "rustrover.release",
+      "idea.agent-activation",
+      "idea.local-models",
+      "idea.byok",
+      "idea.air",
+      "idea.copilot"
+    ]
+  },
+  {
+    "id": "pycharm",
+    "name": "PyCharm Professional",
+    "ide_complete": "yes",
+    "architecture": "JetBrains Python IDE",
+    "copilot": "official plugin",
+    "codex": "JetBrains AI/ACP options; verify product version",
+    "claude": "JetBrains AI/ACP options; verify product version",
+    "acp": "JetBrains AI/Air",
+    "mcp": "JetBrains MCP",
+    "byok": "JetBrains provider options",
+    "local_models": "AI features, not agents",
+    "without_ai": "strong Python IDE",
+    "sources": [
+      "pycharm.python",
+      "idea.agent-activation",
+      "idea.local-models",
+      "idea.byok",
+      "idea.air",
+      "idea.copilot"
+    ]
+  },
+  {
+    "id": "vscodium",
+    "name": "VSCodium",
+    "ide_complete": "yes",
+    "architecture": "Community Code OSS build; Open VSX defaults",
+    "copilot": "not by default through Microsoft Marketplace",
+    "codex": "external CLI or compatible extension",
+    "claude": "external CLI or compatible extension",
+    "acp": "not established first-party",
+    "mcp": "compatible extension dependent",
+    "byok": "extension dependent",
+    "local_models": "extension dependent",
+    "without_ai": "strong editor with marketplace differences",
+    "sources": [
+      "vscodium.repo",
+      "vscodium.extensions",
+      "vscodium.openvsx"
+    ]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "ide_complete": "yes",
+    "architecture": "Proprietary VS Code-derived editor",
+    "copilot": "not native product integration",
+    "codex": "external workflow; native support not established",
+    "claude": "external workflow; native support not established",
+    "acp": "not established",
+    "mcp": "agent/tool integrations documented",
+    "byok": "model options depend on plan",
+    "local_models": "not established as full local-agent support",
+    "without_ai": "capable editor",
+    "sources": [
+      "cursor.changelog",
+      "cursor.pricing",
+      "cursor.models",
+      "cursor.privacy"
+    ]
+  },
+  {
+    "id": "zed",
+    "name": "Zed",
+    "ide_complete": "yes",
+    "architecture": "Native editor with open source client",
+    "copilot": "no native integration established",
+    "codex": "external agent via ACP/terminal",
+    "claude": "external agent via ACP/terminal",
+    "acp": "documented",
+    "mcp": "agent tool configuration",
+    "byok": "provider options",
+    "local_models": "documented",
+    "without_ai": "strong native editor",
+    "sources": [
+      "zed.protocols",
+      "zed.local",
+      "zed.ai-privacy",
+      "zed.privacy",
+      "zed.remote"
+    ]
+  },
+  {
+    "id": "neovim",
+    "name": "Neovim",
+    "ide_complete": "configured IDE",
+    "architecture": "Open source terminal editor with built-in LSP",
+    "copilot": "community plugin",
+    "codex": "external CLI",
+    "claude": "external CLI",
+    "acp": "plugin dependent",
+    "mcp": "plugin/agent dependent",
+    "byok": "CLI/provider dependent",
+    "local_models": "CLI/provider dependent",
+    "without_ai": "strong local terminal editor",
+    "sources": [
+      "nvim.lsp",
+      "nvim.build",
+      "nvim.license"
+    ]
+  },
+  {
+    "id": "sublime",
+    "name": "Sublime Text 4",
+    "ide_complete": "yes",
+    "architecture": "Native proprietary editor with Package Control and separately maintained language/debugger packages",
+    "copilot": "no first-party integration established; third-party/CLI options need verification",
+    "codex": "external CLI in terminal",
+    "claude": "external CLI in terminal",
+    "acp": "no native ACP integration established",
+    "mcp": "no native MCP integration established",
+    "byok": "agent/provider dependent, no native agent layer established",
+    "local_models": "external CLI or extension dependent",
+    "without_ai": "strong fast text editor; language intelligence and debugger need packages",
+    "sources": [
+      "sublime.release",
+      "sublime.lsp-rust",
+      "sublime.lsp-ts",
+      "sublime.debugger",
+      "sublime.pydebugger"
+    ]
+  },
+  {
+    "id": "devin",
+    "name": "Devin Desktop",
+    "ide_complete": "yes",
+    "architecture": "VS Code-derived editor with Cognition services",
+    "copilot": "not established",
+    "codex": "external ACP/agent workflow",
+    "claude": "external ACP/agent workflow",
+    "acp": "documented external agents",
+    "mcp": "agent dependent",
+    "byok": "plan/provider dependent",
+    "local_models": "not established",
+    "without_ai": "editor works; agent-centric product",
+    "sources": [
+      "devin.desktop",
+      "devin.acp",
+      "devin.pricing"
+    ]
+  },
+  {
+    "id": "kiro",
+    "name": "Kiro",
+    "ide_complete": "yes",
+    "architecture": "AWS Code OSS-derived editor",
+    "copilot": "not established",
+    "codex": "current external support needs verification",
+    "claude": "current external support needs verification",
+    "acp": "not established in reviewed docs",
+    "mcp": "documented",
+    "byok": "plan/provider needs review",
+    "local_models": "not established",
+    "without_ai": "complete editor, agent-led workflow",
+    "sources": [
+      "kiro.ide",
+      "kiro.mcp",
+      "kiro.security",
+      "kiro.terms",
+      "kiro.release",
+      "cve.kiro"
+    ]
+  },
+  {
+    "id": "antigravity",
+    "name": "Google Antigravity",
+    "ide_complete": "yes",
+    "architecture": "Standalone editor; codebase architecture unknown",
+    "copilot": "extension support varies",
+    "codex": "not confirmed",
+    "claude": "not confirmed",
+    "acp": "not confirmed",
+    "mcp": "agent tools documented",
+    "byok": "not confirmed",
+    "local_models": "not confirmed",
+    "without_ai": "complete editor, lower maturity",
+    "sources": [
+      "antigravity.platform",
+      "antigravity.extensions",
+      "antigravity.privacy"
+    ]
+  }
+]

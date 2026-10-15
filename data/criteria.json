@@ -1,0 +1,137 @@
+[
+  {
+    "id": "rust",
+    "label": "Rust language support",
+    "description": "Rust language server or engine, Cargo, tests, tooling and project navigation."
+  },
+  {
+    "id": "tauri",
+    "label": "Tauri workflow",
+    "description": "Tauri-specific commands, Rust/JS coordination and desktop-app iteration."
+  },
+  {
+    "id": "web",
+    "label": "TypeScript, React and Next.js",
+    "description": "Language intelligence and framework support for TypeScript, React and Next.js."
+  },
+  {
+    "id": "python",
+    "label": "Python",
+    "description": "Python language intelligence, environments, tests and framework tooling."
+  },
+  {
+    "id": "databases",
+    "label": "Database tooling",
+    "description": "SQL editing, schema browsing, query execution and database integration."
+  },
+  {
+    "id": "docker",
+    "label": "Docker",
+    "description": "Dockerfile, Compose and container lifecycle support."
+  },
+  {
+    "id": "devcontainers",
+    "label": "Dev Containers",
+    "description": "Opening and managing development containers as workspaces."
+  },
+  {
+    "id": "wsl",
+    "label": "WSL2",
+    "description": "Windows Subsystem for Linux integration and filesystem/toolchain workflow."
+  },
+  {
+    "id": "remote",
+    "label": "SSH and remote development",
+    "description": "Remote project editing with language tools, terminals and file operations."
+  },
+  {
+    "id": "git",
+    "label": "Git and GitHub",
+    "description": "Git graph/diffs, conflict handling, GitHub integration and review."
+  },
+  {
+    "id": "terminal",
+    "label": "Terminal",
+    "description": "Integrated terminal and task/build interaction."
+  },
+  {
+    "id": "debugging",
+    "label": "Debugging",
+    "description": "Debugger availability, setup and interaction quality."
+  },
+  {
+    "id": "code_intelligence",
+    "label": "Code intelligence",
+    "description": "Completion, navigation, diagnostics, semantic search and language analysis."
+  },
+  {
+    "id": "refactoring",
+    "label": "Refactoring",
+    "description": "Rename, extraction, structural transforms and safe cross-file changes."
+  },
+  {
+    "id": "plugins",
+    "label": "Extensions and plugins",
+    "description": "Ecosystem coverage, maintenance, publisher clarity and compatibility."
+  },
+  {
+    "id": "ai",
+    "label": "Integrated AI",
+    "description": "Native or official AI features and first-party agent experience."
+  },
+  {
+    "id": "external_agents",
+    "label": "External agents",
+    "description": "Codex, Claude, Copilot, ACP, MCP and external CLI integration."
+  },
+  {
+    "id": "security",
+    "label": "Security controls",
+    "description": "Permission boundaries, sandboxing, approvals, advisories and secure defaults."
+  },
+  {
+    "id": "privacy",
+    "label": "Privacy and local control",
+    "description": "Telemetry, provider exposure, local execution and data minimization."
+  },
+  {
+    "id": "performance",
+    "label": "Performance evidence",
+    "description": "Startup, indexing, resource use, responsiveness, WSL and remote evidence."
+  },
+  {
+    "id": "stability",
+    "label": "Stability and maturity",
+    "description": "Release cadence, platform maturity, regressions and support continuity."
+  },
+  {
+    "id": "ux",
+    "label": "User experience",
+    "description": "Workflow coherence, discoverability, ergonomics and reported usability."
+  },
+  {
+    "id": "windows",
+    "label": "Windows",
+    "description": "Native Windows and ecosystem integration."
+  },
+  {
+    "id": "linux",
+    "label": "Linux",
+    "description": "Native Linux support and integration."
+  },
+  {
+    "id": "macos",
+    "label": "macOS",
+    "description": "Native macOS support and integration."
+  },
+  {
+    "id": "price",
+    "label": "Price and commercial license",
+    "description": "Editor, plugin and required subscription cost; commercial-use rights."
+  },
+  {
+    "id": "lockin",
+    "label": "Vendor lock-in and portability",
+    "description": "Reversibility, proprietary services, standards, exportability and ecosystem dependence."
+  }
+]
