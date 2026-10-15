@@ -1,0 +1,24 @@
+name: Source or claim correction
+description: Report an outdated or unsupported comparison claim.
+title: "[Evidence] "
+labels: ["evidence"]
+body:
+  - type: input
+    id: claim
+    attributes:
+      label: Claim or product
+      placeholder: Product and page or data field
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Supporting source URL
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What should change?
+    validations:
+      required: true

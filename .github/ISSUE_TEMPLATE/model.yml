@@ -1,0 +1,23 @@
+name: Model or scenario suggestion
+description: Suggest a criterion, scenario, or correction to the scoring model.
+title: "[Model] "
+labels: ["model"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Area
+      options:
+        - Scenario composition
+        - Criterion
+        - Product score
+        - Excluded candidate
+        - Translation
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Evidence and rationale
+    validations:
+      required: true
