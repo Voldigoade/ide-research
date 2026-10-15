@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "air.eap",
+    "title": "JetBrains Air in IDEs EAP launch",
+    "publisher": "JetBrains",
+    "kind": "release announcement",
+    "url": "https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "air.ide-overview",
+    "title": "JetBrains Air in IDEs overview",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/air-ides/air-overview.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "air.product",
+    "title": "JetBrains Air product overview",
+    "publisher": "JetBrains",
+    "kind": "product documentation",
+    "url": "https://www.jetbrains.com/air/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "air.wsl",
+    "title": "Run custom ACP agents from WSL in JetBrains Air in IDEs",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/air-ides/air-manage-agents.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "antigravity.extensions",
+    "title": "Google Antigravity extension support",
+    "publisher": "Google",
+    "kind": "documentation",
+    "url": "https://antigravity.google/docs/extensions",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "antigravity.platform",
+    "title": "Google Antigravity platform documentation",
+    "publisher": "Google",
+    "kind": "documentation",
+    "url": "https://antigravity.google/docs",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "antigravity.privacy",
+    "title": "Google Antigravity privacy and terms",
+    "publisher": "Google",
+    "kind": "privacy",
+    "url": "https://antigravity.google/terms",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "claude.code",
+    "title": "Claude Code IDE integrations",
+    "publisher": "Anthropic",
+    "kind": "documentation",
+    "url": "https://docs.anthropic.com/en/docs/claude-code/ide-integrations",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "codex.cli",
+    "title": "Codex CLI source and documentation",
+    "publisher": "OpenAI",
+    "kind": "source",
+    "url": "https://github.com/openai/codex",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "community.cursor-hn",
+    "title": "Cursor 3 and agent workflows discussion",
+    "publisher": "Hacker News",
+    "kind": "community",
+    "url": "https://news.ycombinator.com/item?id=47618084",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.hn-pycharm-zed-2026",
+    "title": "PyCharm to Zed migration, citing indexing overhead",
+    "publisher": "Hacker News",
+    "kind": "field report",
+    "url": "https://news.ycombinator.com/item?id=48185188",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.hn-setup-2026",
+    "title": "Developer environment migration reports in 2026",
+    "publisher": "Hacker News",
+    "kind": "field report",
+    "url": "https://news.ycombinator.com/item?id=47616250",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.neovim-back-vscode-2025",
+    "title": "Neovim user considering a return to VS Code",
+    "publisher": "Reddit r/vscode",
+    "kind": "field report",
+    "url": "https://www.reddit.com/r/vscode/comments/1j0zgq9/switching_to_vs_code_from_neovim_keyboard_driven/",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.neovim-move-2026",
+    "title": "Neovim users report switching from VS Code in 2026",
+    "publisher": "Reddit r/neovim",
+    "kind": "field report",
+    "url": "https://www.reddit.com/r/neovim/comments/1srixco/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "community.neovim-rust",
+    "title": "Rust IDE workflow comparison",
+    "publisher": "r/rust",
+    "kind": "community",
+    "url": "https://www.reddit.com/r/rust/comments/18i958f/ide_for_rust/",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.neovim-trial-2026",
+    "title": "React/TypeScript user trying to move from VS Code to Neovim",
+    "publisher": "Reddit r/neovim",
+    "kind": "field report",
+    "url": "https://www.reddit.com/r/neovim/comments/1u6aflx/strategies_for_breaking_the_vs_code_habit_and/",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.neovim-win-2026",
+    "title": "Recent first-person Neovim migration from VS Code",
+    "publisher": "Reddit r/neovim",
+    "kind": "field report",
+    "url": "https://www.reddit.com/r/neovim/comments/1ujcgl8/i_finally_switched_to_neovim/",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.py-vscode-2026",
+    "title": "Python editor discussion from 2026",
+    "publisher": "Reddit r/PythonLearning",
+    "kind": "field report",
+    "url": "https://www.reddit.com/r/PythonLearning/comments/1vdh3ud/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "community.py-vscode-move",
+    "title": "Python user report: moved from PyCharm to VS Code",
+    "publisher": "Reddit r/Python",
+    "kind": "field report",
+    "url": "https://www.reddit.com/r/Python/comments/1j9196v/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "community.py-vscode-switch",
+    "title": "Python user report: trying to move from VS Code to PyCharm",
+    "publisher": "Reddit r/pycharm",
+    "kind": "field report",
+    "url": "https://www.reddit.com/r/pycharm/comments/1jb450r/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "community.pycharm-2026",
+    "title": "PyCharm user report: workflow issues in 2026",
+    "publisher": "Reddit r/pycharm",
+    "kind": "field report",
+    "url": "https://www.reddit.com/r/pycharm/comments/1qx6no0/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "community.rr-vscode",
+    "title": "RustRover versus VS Code field report",
+    "publisher": "r/rust",
+    "kind": "community",
+    "url": "https://www.reddit.com/r/rust/comments/16hiw6o/introducing_rustrover_a_standalone_rust_ide_by/",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.rust-migrate",
+    "title": "Rust workflow reports from Rust developers",
+    "publisher": "r/rust",
+    "kind": "community",
+    "url": "https://www.reddit.com/r/rust/comments/1r4jz1b/my_rust_development_workflow_in_2026/",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.rustrover",
+    "title": "RustRover and VS Code workflow discussion",
+    "publisher": "r/rust",
+    "kind": "community",
+    "url": "https://www.reddit.com/r/rust/comments/1wepy3p/about_rust_rover/",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.vscode-memory",
+    "title": "Community reports on editor memory",
+    "publisher": "r/vscode",
+    "kind": "community",
+    "url": "https://www.reddit.com/r/vscode/comments/1gbn2yd/why_vscode_is_taking_too_much_cpu_and_ram/",
+    "checked": "2026-10-15",
+    "evidence": "UNCERTAIN"
+  },
+  {
+    "id": "community.vscode-zed",
+    "title": "Zed versus VS Code workflow discussion",
+    "publisher": "r/vscode",
+    "kind": "community",
+    "url": "https://www.reddit.com/r/vscode/comments/1thib4i/i_still_dont_understand_the_hype_around_zed_over/",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.zed-acp",
+    "title": "Zed ACP agent memory report",
+    "publisher": "Zed GitHub Issues",
+    "kind": "issue",
+    "url": "https://github.com/zed-industries/zed/issues/60134",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.zed-memory",
+    "title": "Zed project search memory report",
+    "publisher": "Zed GitHub Issues",
+    "kind": "issue",
+    "url": "https://github.com/zed-industries/zed/issues/49168",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "community.zed-wsl",
+    "title": "Zed WSL memory spike report",
+    "publisher": "Zed GitHub Issues",
+    "kind": "issue",
+    "url": "https://github.com/zed-industries/zed/issues/46434",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "cursor.changelog",
+    "title": "Cursor changelog",
+    "publisher": "Anysphere",
+    "kind": "release",
+    "url": "https://cursor.com/changelog",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "cursor.models",
+    "title": "Cursor model configuration",
+    "publisher": "Anysphere",
+    "kind": "documentation",
+    "url": "https://docs.cursor.com/advanced/models",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "cursor.pricing",
+    "title": "Cursor plans and pricing",
+    "publisher": "Anysphere",
+    "kind": "pricing",
+    "url": "https://cursor.com/pricing",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "cursor.privacy",
+    "title": "Cursor data use and privacy mode",
+    "publisher": "Anysphere",
+    "kind": "privacy",
+    "url": "https://cursor.com/en-US/data-use",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "cursor.privacy-docs",
+    "title": "Cursor privacy mode",
+    "publisher": "Anysphere",
+    "kind": "documentation",
+    "url": "https://docs.cursor.com/account/privacy",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "cve.kiro",
+    "title": "Kiro IDE CVE-2026-95985 vendor advisory",
+    "publisher": "AWS Security Bulletin",
+    "kind": "advisory",
+    "url": "https://aws.amazon.com/security/security-bulletins/2026-117-aws/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "devin.acp",
+    "title": "Devin Desktop agent interoperability",
+    "publisher": "Cognition",
+    "kind": "documentation",
+    "url": "https://docs.devin.ai/work-with-devin/devin-desktop",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "devin.desktop",
+    "title": "Devin Desktop",
+    "publisher": "Cognition",
+    "kind": "product",
+    "url": "https://devin.ai/",
+    "checked": "2026-10-15",
+    "evidence": "UNCERTAIN"
+  },
+  {
+    "id": "devin.pricing",
+    "title": "Devin plans",
+    "publisher": "Cognition",
+    "kind": "pricing",
+    "url": "https://devin.ai/pricing",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "fleet.archive",
+    "title": "Fleet product status",
+    "publisher": "JetBrains",
+    "kind": "announcement",
+    "url": "https://blog.jetbrains.com/fleet/2025/12/fleet-end-of-the-road/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "fleet.end",
+    "title": "Fleet availability announcement",
+    "publisher": "JetBrains",
+    "kind": "announcement",
+    "url": "https://blog.jetbrains.com/fleet/2025/12/fleet-end-of-the-road/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "helix.release",
+    "title": "Helix release history",
+    "publisher": "Helix project",
+    "kind": "release",
+    "url": "https://helix-editor.com/news/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.acp",
+    "title": "ACP agents in JetBrains IDEs",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/ai-assistant/acp.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.agent-activation",
+    "title": "Activate Claude Agent, Codex, and ACP agents",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/ai-assistant/activate-agents.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.ai",
+    "title": "AI Assistant models and providers",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/ai-assistant-in-jetbrains-ides.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.air",
+    "title": "JetBrains Air in IDEs",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/air-in-jetbrains-ides.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.air-wsl",
+    "title": "Run custom ACP agents from WSL",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/air-ides/air-manage-agents.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.byok",
+    "title": "Bring your own key",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/ai-assistant/bring-your-own-key-byok.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.copilot",
+    "title": "GitHub Copilot plugin for JetBrains IDEs",
+    "publisher": "JetBrains Marketplace",
+    "kind": "plugin",
+    "url": "https://plugins.jetbrains.com/plugin/17718-github-copilot--your-ai-pair-programmer",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.db",
+    "title": "Database tools",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/database-tool-window.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.devcontainers",
+    "title": "Dev Containers in IntelliJ-based IDEs",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/dev-containers.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.docker",
+    "title": "Docker in IntelliJ IDEA",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/docker.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.license",
+    "title": "JetBrains product terms and licenses",
+    "publisher": "JetBrains",
+    "kind": "license",
+    "url": "https://www.jetbrains.com/legal/docs/toolbox/license/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.local-models",
+    "title": "Local and third-party AI models",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/ai-assistant/use-custom-models.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.mcp",
+    "title": "Model Context Protocol in JetBrains IDEs",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/ai-assistant/mcp.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.mcp-host",
+    "title": "IntelliJ MCP server",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/ai-assistant/mcp.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.next",
+    "title": "Next.js in IntelliJ IDEA",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/nextjs.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.pricing",
+    "title": "JetBrains IDE subscription plans",
+    "publisher": "JetBrains",
+    "kind": "pricing",
+    "url": "https://www.jetbrains.com/store/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.privacy",
+    "title": "AI Assistant data handling",
+    "publisher": "JetBrains",
+    "kind": "privacy",
+    "url": "https://www.jetbrains.com/help/idea/ai-data-sharing.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.python",
+    "title": "Python plugin for IntelliJ IDEA",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/python.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.react",
+    "title": "React in IntelliJ IDEA",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/react.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.remote",
+    "title": "Remote Development",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/remote-development-overview.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.rust",
+    "title": "Rust plugin for IntelliJ IDEA and RustRover comparison",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/rust-plugin.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.web",
+    "title": "JavaScript and TypeScript in IntelliJ IDEA",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/javascript.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.wsl",
+    "title": "WSL development",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/how-to-use-wsl-development-environment-in-product.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.wsl-benchmark",
+    "title": "Evolution of WSL support in JetBrains IDEs",
+    "publisher": "JetBrains",
+    "kind": "vendor measurement",
+    "url": "https://blog.jetbrains.com/platform/2026/09/the-evolution-of-wsl-support-in-jetbrains-ides/",
+    "checked": "2026-10-15",
+    "evidence": "MEASURED"
+  },
+  {
+    "id": "kiro.ide",
+    "title": "Kiro IDE documentation",
+    "publisher": "Amazon Web Services",
+    "kind": "documentation",
+    "url": "https://kiro.dev/docs/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "kiro.mcp",
+    "title": "MCP and agent configuration",
+    "publisher": "AWS",
+    "kind": "documentation",
+    "url": "https://kiro.dev/docs/mcp/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "kiro.pricing",
+    "title": "Kiro pricing",
+    "publisher": "AWS",
+    "kind": "pricing",
+    "url": "https://kiro.dev/pricing/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "kiro.release",
+    "title": "Kiro release notes",
+    "publisher": "Amazon Web Services",
+    "kind": "release",
+    "url": "https://kiro.dev/changelog/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "kiro.security",
+    "title": "Kiro security and command execution",
+    "publisher": "Amazon Web Services",
+    "kind": "security",
+    "url": "https://kiro.dev/docs/security/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "kiro.terms",
+    "title": "Kiro privacy and service terms",
+    "publisher": "AWS",
+    "kind": "privacy",
+    "url": "https://kiro.dev/privacy/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "lapce.plugins",
+    "title": "Lapce plugin catalog",
+    "publisher": "Lapce project",
+    "kind": "plugin catalog",
+    "url": "https://plugins.lapce.dev/",
+    "evidence": "SOURCED",
+    "checked": "2026-10-15"
+  },
+  {
+    "id": "lapce.release",
+    "title": "Lapce releases",
+    "publisher": "Lapce",
+    "kind": "release",
+    "url": "https://github.com/lapce/lapce/releases",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "lapce.remote",
+    "title": "Lapce remote development documentation",
+    "publisher": "Lapce project",
+    "kind": "documentation",
+    "url": "https://docs.lapce.dev/get-started/remote-development",
+    "evidence": "SOURCED",
+    "checked": "2026-10-15"
+  },
+  {
+    "id": "lapce.wsl",
+    "title": "Lapce WSL folder workflow issue and maintainer response",
+    "publisher": "Lapce GitHub",
+    "kind": "issue",
+    "url": "https://github.com/lapce/lapce/issues/2979",
+    "evidence": "CORROBORATED",
+    "checked": "2026-10-15"
+  },
+  {
+    "id": "nova.docs",
+    "title": "Panic Nova product and documentation",
+    "publisher": "Panic",
+    "kind": "product documentation",
+    "url": "https://help.panic.com/nova/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "nova.product",
+    "title": "Nova macOS editor",
+    "publisher": "Panic",
+    "kind": "product",
+    "url": "https://nova.app/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "nvim.build",
+    "title": "Neovim build and platform documentation",
+    "publisher": "Neovim",
+    "kind": "documentation",
+    "url": "https://neovim.io/doc/build/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "nvim.license",
+    "title": "Neovim license",
+    "publisher": "Neovim",
+    "kind": "license",
+    "url": "https://github.com/neovim/neovim/blob/master/LICENSE",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "nvim.lsp",
+    "title": "Neovim LSP documentation",
+    "publisher": "Neovim",
+    "kind": "documentation",
+    "url": "https://neovim.io/doc/user/lsp",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.antigravity",
+    "title": "Google Antigravity plans and prices",
+    "publisher": "Google",
+    "kind": "pricing",
+    "url": "https://antigravity.google/pricing",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.antigravity-change",
+    "title": "Antigravity individual plan changes, May 2026",
+    "publisher": "Google",
+    "kind": "pricing announcement",
+    "url": "https://antigravity.google/blog/changes-to-antigravity-plans/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.cursor",
+    "title": "Cursor current plans and model billing",
+    "publisher": "Cursor",
+    "kind": "pricing",
+    "url": "https://cursor.com/en-US/pricing",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.devin",
+    "title": "Devin individual plans and usage pricing",
+    "publisher": "Cognition",
+    "kind": "pricing",
+    "url": "https://devin.ai/pricing",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.jetbrains-ai",
+    "title": "JetBrains AI plans and prices",
+    "publisher": "JetBrains",
+    "kind": "pricing",
+    "url": "https://www.jetbrains.com/ai-ides/buy/?section=personal",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.jetbrains-idea",
+    "title": "IntelliJ IDEA individual subscription pricing",
+    "publisher": "JetBrains",
+    "kind": "pricing",
+    "url": "https://www.jetbrains.com/idea/buy/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.jetbrains-pack",
+    "title": "JetBrains All Products Pack",
+    "publisher": "JetBrains",
+    "kind": "pricing",
+    "url": "https://www.jetbrains.com/all/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.jetbrains-pycharm",
+    "title": "PyCharm Pro individual and commercial pricing",
+    "publisher": "JetBrains",
+    "kind": "pricing",
+    "url": "https://www.jetbrains.com/pycharm/buy/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.jetbrains-rustrover",
+    "title": "RustRover personal and commercial pricing",
+    "publisher": "JetBrains",
+    "kind": "pricing",
+    "url": "https://www.jetbrains.com/rust/buy/?billing=monthly&section=personal",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.kiro",
+    "title": "Kiro plans, credits, and add-on pricing",
+    "publisher": "AWS",
+    "kind": "pricing",
+    "url": "https://kiro.dev/pricing/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.sublime",
+    "title": "Sublime Text personal and business license pricing",
+    "publisher": "Sublime HQ",
+    "kind": "pricing",
+    "url": "https://www.sublimehq.com/store/text",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.vscode",
+    "title": "VS Code license and commercial use",
+    "publisher": "Microsoft",
+    "kind": "license and FAQ",
+    "url": "https://code.visualstudio.com/docs/supporting/faq",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.zed",
+    "title": "Zed Personal, Pro, and Business plans",
+    "publisher": "Zed",
+    "kind": "pricing",
+    "url": "https://zed.dev/pricing",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pycharm.db",
+    "title": "Database tools and SQL",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/pycharm/database-tool-window.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pycharm.devcontainers",
+    "title": "Dev Containers in PyCharm",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/pycharm/dev-containers.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pycharm.pricing",
+    "title": "PyCharm pricing",
+    "publisher": "JetBrains",
+    "kind": "pricing",
+    "url": "https://www.jetbrains.com/pycharm/buy/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pycharm.python",
+    "title": "PyCharm features",
+    "publisher": "JetBrains",
+    "kind": "product",
+    "url": "https://www.jetbrains.com/pycharm/features/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "rustrover.debug",
+    "title": "JavaScript debugging in RustRover",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/rust/debugging-javascript-in-chrome.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "rustrover.js",
+    "title": "JavaScript and TypeScript support in RustRover",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/rust/javascript-specific-guidelines.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "rustrover.pricing",
+    "title": "RustRover pricing",
+    "publisher": "JetBrains",
+    "kind": "pricing",
+    "url": "https://www.jetbrains.com/rust/buy/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "rustrover.release",
+    "title": "RustRover 2026.2 release notes",
+    "publisher": "JetBrains",
+    "kind": "release",
+    "url": "https://www.jetbrains.com/rust/whatsnew/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "sublime.debugger",
+    "title": "Sublime Text Debugger package",
+    "publisher": "Package Control",
+    "kind": "extension catalog",
+    "url": "https://packagecontrol.io/packages/Debugger",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "sublime.lsp-rust",
+    "title": "LSP-rust-analyzer package for Sublime Text",
+    "publisher": "Package Control",
+    "kind": "extension catalog",
+    "url": "https://packagecontrol.io/packages/LSP-rust-analyzer",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "sublime.lsp-ts",
+    "title": "LSP TypeScript package for Sublime Text",
+    "publisher": "Package Control",
+    "kind": "extension catalog",
+    "url": "https://packagecontrol.io/packages/LSP-typescript",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "sublime.pricing",
+    "title": "Sublime Text purchase options",
+    "publisher": "Sublime HQ",
+    "kind": "pricing and license",
+    "url": "https://www.sublimetext.com/buy",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "sublime.pydebugger",
+    "title": "Python Debugger package for Sublime Text",
+    "publisher": "Package Control",
+    "kind": "extension catalog",
+    "url": "https://packagecontrol.io/packages/Python%20Debugger",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "sublime.release",
+    "title": "Sublime Text 4 Build 4213",
+    "publisher": "Sublime HQ",
+    "kind": "release",
+    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4213",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "sublime.wsl",
+    "title": "Sublime Text and WSL filesystem behavior, community support thread",
+    "publisher": "Sublime Forum",
+    "kind": "field report",
+    "url": "https://forum.sublimetext.com/t/how-to-use-wsl-from-sublime-text/70058",
+    "checked": "2026-10-15",
+    "evidence": "CORROBORATED"
+  },
+  {
+    "id": "tauri.docs",
+    "title": "Tauri documentation",
+    "publisher": "Tauri",
+    "kind": "documentation",
+    "url": "https://v2.tauri.app/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "tauri.security",
+    "title": "Tauri security model",
+    "publisher": "Tauri",
+    "kind": "security",
+    "url": "https://v2.tauri.app/security/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "tauri.vscode",
+    "title": "Tauri VS Code extension",
+    "publisher": "Tauri",
+    "kind": "documentation",
+    "url": "https://v2.tauri.app/start/ide-plugin/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "theia.docs",
+    "title": "Eclipse Theia documentation",
+    "publisher": "Eclipse Foundation",
+    "kind": "documentation",
+    "url": "https://theia-ide.org/docs/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "theia.license",
+    "title": "Eclipse Theia license",
+    "publisher": "Eclipse Foundation",
+    "kind": "license",
+    "url": "https://github.com/eclipse-theia/theia/blob/master/LICENSE",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "theia.release",
+    "title": "Eclipse Theia releases",
+    "publisher": "Eclipse Foundation",
+    "kind": "release",
+    "url": "https://github.com/eclipse-theia/theia/releases",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.agent",
+    "title": "Agent mode",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.containers",
+    "title": "Dev Containers",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/devcontainers/containers",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.copilot",
+    "title": "GitHub Copilot in VS Code",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/copilot/overview",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.debug",
+    "title": "Debugging in Visual Studio Code",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/debugtest/debugging",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.extension-marketplace",
+    "title": "Visual Studio Marketplace",
+    "publisher": "Microsoft",
+    "kind": "marketplace",
+    "url": "https://marketplace.visualstudio.com/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.git",
+    "title": "Git support in Visual Studio Code",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/sourcecontrol/overview",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.js",
+    "title": "JavaScript and TypeScript",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/languages/javascript",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.license",
+    "title": "Visual Studio Code license",
+    "publisher": "Microsoft",
+    "kind": "license",
+    "url": "https://code.visualstudio.com/license",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.mcp",
+    "title": "MCP servers in VS Code",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/copilot/customization/mcp-servers",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.models",
+    "title": "Bring your own language model",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/copilot/customization/language-models",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.privacy",
+    "title": "Telemetry and diagnostics",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/configure/telemetry",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.python",
+    "title": "Python in Visual Studio Code",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/languages/python",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.release",
+    "title": "Visual Studio Code 1.142 release notes",
+    "publisher": "Microsoft",
+    "kind": "release",
+    "url": "https://code.visualstudio.com/updates/v1_142",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.remote",
+    "title": "Remote Development overview",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/remote/remote-overview",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.rust",
+    "title": "Rust in Visual Studio Code",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/languages/rust",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.ssh",
+    "title": "Remote SSH",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/remote/ssh",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscode.wsl",
+    "title": "Developing in WSL",
+    "publisher": "Microsoft",
+    "kind": "documentation",
+    "url": "https://code.visualstudio.com/docs/remote/wsl",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscodium.extensions",
+    "title": "Extension marketplace and compatibility",
+    "publisher": "VSCodium",
+    "kind": "documentation",
+    "url": "https://github.com/VSCodium/vscodium/blob/master/docs/extensions.md",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscodium.openvsx",
+    "title": "Open VSX Registry",
+    "publisher": "Eclipse Foundation",
+    "kind": "marketplace",
+    "url": "https://open-vsx.org/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "vscodium.repo",
+    "title": "VSCodium source and build project",
+    "publisher": "VSCodium",
+    "kind": "source",
+    "url": "https://github.com/VSCodium/vscodium",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "zed.ai-privacy",
+    "title": "AI privacy and security",
+    "publisher": "Zed Industries",
+    "kind": "privacy",
+    "url": "https://zed.dev/docs/ai/privacy-and-security",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "zed.local",
+    "title": "Use a local model",
+    "publisher": "Zed Industries",
+    "kind": "documentation",
+    "url": "https://github.com/zed-industries/zed/blob/main/docs/src/ai/use-a-local-model.md",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "zed.pricing",
+    "title": "Zed plans and pricing",
+    "publisher": "Zed Industries",
+    "kind": "pricing",
+    "url": "https://zed.dev/pricing",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "zed.privacy",
+    "title": "Zed privacy policy",
+    "publisher": "Zed Industries",
+    "kind": "privacy",
+    "url": "https://zed.dev/privacy",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "zed.protocols",
+    "title": "External agents and ACP support",
+    "publisher": "Zed Industries",
+    "kind": "documentation",
+    "url": "https://zed.dev/docs/ai/external-agents",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "zed.release",
+    "title": "Zed stable releases",
+    "publisher": "Zed Industries",
+    "kind": "release",
+    "url": "https://zed.dev/releases/stable",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "zed.remote",
+    "title": "Remote development",
+    "publisher": "Zed Industries",
+    "kind": "documentation",
+    "url": "https://github.com/zed-industries/zed/blob/main/docs/src/remote-development.md",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "zed.windows",
+    "title": "Zed on Windows",
+    "publisher": "Zed Industries",
+    "kind": "documentation",
+    "url": "https://zed.dev/docs/windows",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "zed.wsl-sandbox",
+    "title": "AI agent sandboxing on Windows and WSL",
+    "publisher": "Zed Industries",
+    "kind": "documentation",
+    "url": "https://github.com/zed-industries/zed/blob/main/docs/src/ai/sandboxing.md",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  }
+]
