@@ -207,6 +207,10 @@
       "sha256": "ea2b2aed320783cf33640a59698f97b3aee132259fcf85c10163539b02372e2f"
     },
     {
+      "path": "LICENSE",
+      "sha256": "5fa370c77e18f6bfdb7f480e3a323b1f57807e6c60ef4762a5b302d892b4c556"
+    },
+    {
       "path": "LICENSE-CC-BY-SA-4.0.txt",
       "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
     },
@@ -240,7 +244,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "4e7f8b72c575e340a8125f55974bfbfea8f88eb28fc6bb0308e096a8f47ad116"
+      "sha256": "3b20a1070af8a1a26b20bfdb527b3e53065c78ce7fc6cc39e06c96006874f7b6"
     },
     {
       "path": "requirements.txt",

@@ -1,0 +1,9 @@
+# License scope
+
+This repository does not have one license that applies to every file.
+
+Original research text, research data, and documentation are licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). The complete terms are in `LICENSE-CC-BY-SA-4.0.txt`.
+
+Code, scripts, styles, templates, and configuration are licensed under the MIT License. The complete terms are in `LICENSE-MIT.txt`.
+
+Third-party material remains under its respective license. See the README licensing section for the scope of each category.

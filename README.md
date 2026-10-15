@@ -2,6 +2,8 @@
 
 A source-linked comparison of development environments for Rust, Tauri, TypeScript/React/Next.js, Python, databases, containers, remote work, and AI agents.
 
+Licensing is split by file type. Research content and code do not share one license; see [Licensing](#licensing).
+
 **As of:** 2026-10-15  
 **Current verdict:** VS Code is the strongest balanced default in this model. IntelliJ IDEA Ultimate is the closest integrated-IDE challenger; RustRover wins Rust/Tauri-heavy work; VSCodium leads when local control and reduced vendor telemetry matter most.
 
