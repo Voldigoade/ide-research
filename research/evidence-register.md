@@ -1,6 +1,6 @@
 # Evidence register
 
-Records checked for this audit: 2026-10-15. Total: 143. The checked date means a source was included in the current source set; it does not guarantee future URL availability or independent verification.
+Records checked for this audit: 2026-10-15. Total: 145. The checked date means a source was included in the current source set; it does not guarantee future URL availability or independent verification.
 
 | ID | Publisher | Type | Evidence | Title | URL |
 |---|---|---|---|---|---|
@@ -94,8 +94,10 @@ Records checked for this audit: 2026-10-15. Total: 143. The checked date means a
 | pricing.jetbrains-pycharm | JetBrains | pricing | SOURCED | PyCharm Pro individual and commercial pricing | [open](https://www.jetbrains.com/pycharm/buy/) |
 | pricing.jetbrains-rustrover | JetBrains | pricing | SOURCED | RustRover personal and commercial pricing | [open](https://www.jetbrains.com/rust/buy/?billing=monthly&section=personal) |
 | pricing.kiro | AWS | pricing | SOURCED | Kiro plans, credits, and add-on pricing | [open](https://kiro.dev/pricing/) |
+| pricing.neovim | Neovim contributors | license | SOURCED | Neovim license and redistribution terms | [open](https://github.com/neovim/neovim/blob/master/LICENSE.txt) |
 | pricing.sublime | Sublime HQ | pricing | SOURCED | Sublime Text personal and business license pricing | [open](https://www.sublimehq.com/store/text) |
 | pricing.vscode | Microsoft | license and FAQ | SOURCED | VS Code license and commercial use | [open](https://code.visualstudio.com/docs/supporting/faq) |
+| pricing.vscodium | VSCodium contributors | license | SOURCED | VSCodium MIT license | [open](https://github.com/VSCodium/vscodium/blob/master/LICENSE) |
 | pricing.zed | Zed | pricing | SOURCED | Zed Personal, Pro, and Business plans | [open](https://zed.dev/pricing) |
 | pycharm.db | JetBrains | documentation | SOURCED | Database tools and SQL | [open](https://www.jetbrains.com/help/pycharm/database-tool-window.html) |
 | pycharm.devcontainers | JetBrains | documentation | SOURCED | Dev Containers in PyCharm | [open](https://www.jetbrains.com/help/pycharm/dev-containers.html) |

@@ -5,7 +5,7 @@
 | Entorno | Precio anunciado | Nota |
 |---|---:|---|
 | VS Code | Gratis | Se permite uso comercial; Copilot y servicios remotos se cobran aparte. |
-| VSCodium, Neovim | Gratis | Extensiones, modelos y servicios externos pueden tener coste. |
+| VSCodium, Neovim | Gratis | Build limpio de VSCodium bajo MIT; Neovim bajo Apache 2.0 con excepciones Vim y dependencias. Revisar extensiones aparte. |
 | IntelliJ IDEA Ultimate | $199 primer año; $159 segundo; $119/año desde el tercero | Licencia individual anual; incluye AI Free. AI Pro suma $100/año. |
 | JetBrains All Products Pack | $299/$239/$179 al año | Incluye IDEA, PyCharm, RustRover, Air y AI Pro. Los plugins Rust/Python de IDEA bastan si no se necesitan IDE separados. |
 | RustRover | Gratis para uso no comercial admisible; unos $6.90/mes equivalente en facturación anual comercial individual | Confirmar el precio regional y el uso permitido antes de comprar. |

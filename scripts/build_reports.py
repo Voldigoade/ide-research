@@ -49,23 +49,36 @@ def build_duels():
         "plugins":["extension","plugin","marketplace","openvsx"],
         "ai":["agent","copilot","ai","model","byok"],
         "external_agents":["agent","acp","mcp","codex","claude"],
-        "security":["security","cve","sandbox"],"privacy":["privacy","telemetry","data handling"],
+        "security":["security","cve","sandbox","privacy","license","terms","permissions","execution"],"privacy":["privacy","telemetry","data handling"],
         "performance":["benchmark","performance","memory","wsl-benchmark"],
         "stability":["release","changelog"],"ux":["ux","experience","community"],
         "windows":["windows"],"linux":["linux"],"macos":["macos"],
         "price":["price","pricing"],"lockin":["license","terms","openvsx","privacy"]
     }
     prefixes = {
-        "vscode":("vscode.","tauri.vscode","codex.","claude."),
-        "idea":("idea.",), "rustrover":("rustrover.","idea.rust","tauri."),
-        "pycharm":("pycharm.","idea.python","idea.web","idea.db","idea.docker","idea.wsl"),
-        "vscodium":("vscodium.","vscode.","tauri.vscode"), "cursor":("cursor.","vscode.","community.cursor"),
-        "zed":("zed.","community.zed","community.vscode-zed","tauri."),
-        "neovim":("nvim.","community.neovim-rust"), "theia":("theia.",),
-        "devin":("devin.","vscode."), "kiro":("kiro.","cve.kiro","vscode."),
-        "antigravity":("antigravity.","vscode.wsl"), "sublime":("sublime.",)
+        "vscode":("vscode.","tauri.vscode","codex.","claude.","pricing.vscode"),
+        "idea":("idea.","pricing.jetbrains-idea","pricing.jetbrains-ai","pricing.jetbrains-pack"),
+        "rustrover":("rustrover.","idea.rust","tauri.","pricing.jetbrains-rustrover","pricing.jetbrains-pack"),
+        "pycharm":("pycharm.","idea.python","idea.web","idea.db","idea.docker","idea.wsl","pricing.jetbrains-pycharm","pricing.jetbrains-pack"),
+        "vscodium":("vscodium.","vscode.","tauri.vscode","pricing.vscodium"),
+        "cursor":("cursor.","vscode.","community.cursor","pricing.cursor"),
+        "zed":("zed.","community.zed","community.vscode-zed","tauri.","pricing.zed"),
+        "neovim":("nvim.","community.neovim-rust","pricing.neovim"), "theia":("theia.",),
+        "devin":("devin.","vscode.","pricing.devin"), "kiro":("kiro.","cve.kiro","vscode.","pricing.kiro"),
+        "antigravity":("antigravity.","vscode.wsl","pricing.antigravity","pricing.antigravity-change"),
+        "sublime":("sublime.","pricing.sublime")
     }
     def source_trail(product,key):
+        if key=="price":
+            current_price_source={
+                "vscode":"pricing.vscode","idea":"pricing.jetbrains-idea",
+                "rustrover":"pricing.jetbrains-rustrover","pycharm":"pricing.jetbrains-pycharm",
+                "vscodium":"pricing.vscodium","cursor":"pricing.cursor","zed":"pricing.zed",
+                "neovim":"pricing.neovim","sublime":"pricing.sublime","devin":"pricing.devin",
+                "kiro":"pricing.kiro","antigravity":"pricing.antigravity"
+            }.get(product["id"])
+            if current_price_source in source_by_id:
+                return mdlink(current_price_source)
         terms=keywords.get(key,[])
         candidates=[s for s in sources if s["id"].startswith(prefixes.get(product["id"],()))]
         hits=[s["id"] for s in candidates if any(term in (s["id"]+" "+s["title"]).lower() for term in terms)]

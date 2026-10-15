@@ -64,7 +64,7 @@
     },
     {
       "path": "data/sources.json",
-      "sha256": "4eb2901959f49d4ba1dd3d2aa4f02648f067a48ce3438542614bafa743f79fd0"
+      "sha256": "c00e92305f560517e03ead7eb4a5ef9547f551c1168ea7d96b31547343883566"
     },
     {
       "path": "DESIGN.md",
@@ -128,7 +128,7 @@
     },
     {
       "path": "docs/en/pricing.md",
-      "sha256": "41575d2ca02ec0d151b7ac6c579192e665a0acdfc4d47598d1f2585213df7505"
+      "sha256": "e32a83361ae8f9f386beee2b083c12a7d00c2e961165552615527b9f52221893"
     },
     {
       "path": "docs/en/products.md",
@@ -164,7 +164,7 @@
     },
     {
       "path": "docs/es/pricing.md",
-      "sha256": "26aa5eaaa69612b447a2cd2d7da4a75942a4de23a6cc585ce41de3920c0bae71"
+      "sha256": "f618027594181e6c43b0293228713cb8b717ee841beca881ce08c11d5d3e5029"
     },
     {
       "path": "docs/es/products.md",
@@ -192,7 +192,7 @@
     },
     {
       "path": "docs/pricing.md",
-      "sha256": "f2a4b4e966c131818ec6098cc2e203369aaa681b43c442e047d87815c69979fc"
+      "sha256": "474899aaacb9d60766a11177ac15bb68a58317f92a8a5d9dad5528c78370d7ff"
     },
     {
       "path": "docs/products.md",
@@ -248,11 +248,11 @@
     },
     {
       "path": "research/duels-top-five.md",
-      "sha256": "2facc268aa3753e7bdb040af414f411ac86426778403a5a2b1be34664625a3cc"
+      "sha256": "89d0dad381fb58bc1f3ca4b792443bf9868a5458677311aaf541854b83150765"
     },
     {
       "path": "research/evidence-register.md",
-      "sha256": "933c1912dc20dc367782791121c3a0175488af874d63d9bbcb466d4de0366e40"
+      "sha256": "d05a29ea04444f26c376e1ead537d4eb01ef7e98b06c0350ac844337c8958411"
     },
     {
       "path": "research/extensions.md",
@@ -276,7 +276,7 @@
     },
     {
       "path": "research/pricing.md",
-      "sha256": "540160e6221f08acdb0482e8d0bc5bca1127d6d0aa8359be56dae0dea50f8f8d"
+      "sha256": "5c1e5c183e8d26d336a34673adf2f0b7ad94d1457848bfd41d270d61a1feb6cd"
     },
     {
       "path": "research/README.md",
@@ -296,7 +296,7 @@
     },
     {
       "path": "research/source-accessibility.json",
-      "sha256": "8464c071c01b9c074b2e7fcd29a367cb500ddc4efee1a242a6e2ef289960dfc3"
+      "sha256": "faba1f2879d18a34a47302869fb27a04aad318865295f619ebb79810dc2f5ea2"
     },
     {
       "path": "scripts/analyze.py",
@@ -308,7 +308,7 @@
     },
     {
       "path": "scripts/build_reports.py",
-      "sha256": "344882a292e6eb39b785abb6f78a1524bb74ddf75def44e8b62e4fdfb2ff1ea4"
+      "sha256": "17897dc5de6e8b4cfa33f685ec8196f4560d82585a1700ed0bc13d4448f72061"
     },
     {
       "path": "scripts/check_links.py",

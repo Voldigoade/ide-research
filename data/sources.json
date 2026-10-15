@@ -810,6 +810,15 @@
     "evidence": "SOURCED"
   },
   {
+    "id": "pricing.neovim",
+    "title": "Neovim license and redistribution terms",
+    "publisher": "Neovim contributors",
+    "kind": "license",
+    "url": "https://github.com/neovim/neovim/blob/master/LICENSE.txt",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
     "id": "pricing.sublime",
     "title": "Sublime Text personal and business license pricing",
     "publisher": "Sublime HQ",
@@ -824,6 +833,15 @@
     "publisher": "Microsoft",
     "kind": "license and FAQ",
     "url": "https://code.visualstudio.com/docs/supporting/faq",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pricing.vscodium",
+    "title": "VSCodium MIT license",
+    "publisher": "VSCodium contributors",
+    "kind": "license",
+    "url": "https://github.com/VSCodium/vscodium/blob/master/LICENSE",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
