@@ -68,7 +68,7 @@ Treat editor extensions, language servers, MCP tools, ACP agents, shell CLIs, an
 
 The source register records AWS advisory CVE-2026-95985 for Kiro versions before 1.0.242. AWS states it was fixed in 1.0.242; the reviewed Kiro 1.3.0 release is later. This is a patched historical issue, not evidence that the current reviewed version remains vulnerable. Users who ran affected versions with untrusted workspaces should follow the vendor's configuration review guidance.
 
-Minimal extension/plugin configurations and estimated critical dependency counts are in `extensions.md`. License and pricing links are in the source register. Subscription costs, model quotas, commercial rights, and provider terms vary; verify the exact current plan before purchase. No score assumes that an optional AI subscription is free.
+Minimal extension/plugin configurations and estimated critical dependency counts are in `extensions.md`. The dated price snapshot and commercial-license distinctions are in `pricing.md`. At the checked individual annual rate, IDEA Ultimate is $199 in year one; JetBrains' All Products Pack is $299 in year one and includes RustRover, PyCharm, Air, and AI Pro. VS Code is free for commercial use, Sublime Text is $99 one-time for a personal license with three years of updates, and agent products have separate quota/usage charges. The model's price criterion remains a broad editorial range and does not assume a paid AI subscription or estimate token use.
 
 ## Sensitivity and direct duels
 
