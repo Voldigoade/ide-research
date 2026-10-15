@@ -32,7 +32,7 @@ jobs:
       - run: python -m mkdocs build --strict
       - run: npx playwright install --with-deps chromium
       - run: npm run smoke
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
   deploy:
