@@ -1,3 +1,7 @@
+---
+description: "Verificados el 15 de octubre de 2026."
+---
+
 # Precios y licencias
 
 **Verificados el 15 de octubre de 2026.** Precios anunciados en USD antes de impuestos; planes, regiones, créditos y facturación pueden cambiar.
@@ -6,7 +10,7 @@
 |---|---:|---|
 | VS Code | Gratis | Se permite uso comercial; Copilot y servicios remotos se cobran aparte. |
 | VSCodium, Neovim | Gratis | Build limpio de VSCodium bajo MIT; Neovim bajo Apache 2.0 con excepciones Vim y dependencias. Revisar extensiones aparte. |
-| IntelliJ IDEA Ultimate | $199 primer año; $159 segundo; $119/año desde el tercero | Licencia individual anual; incluye AI Free. AI Pro suma $100/año. |
+| IntelliJ IDEA Ultimate | $199 primer año; $159 segundo; $119/año desde el tercero | Desde 2025.2, IntelliJ IDEA usa un único instalador y distribución. Ultimate designa aquí el conjunto de funciones de pago; las funciones básicas de Java/Kotlin siguen disponibles gratis tras la prueba. Incluye AI Free; AI Pro suma $100/año. |
 | JetBrains All Products Pack | $299/$239/$179 al año | Incluye IDEA, PyCharm, RustRover, Air y AI Pro. Los plugins Rust/Python de IDEA bastan si no se necesitan IDE separados. |
 | RustRover | Gratis para uso no comercial admisible; unos $6.90/mes equivalente en facturación anual comercial individual | Confirmar el precio regional y el uso permitido antes de comprar. |
 | PyCharm Pro | $109/$87/$65 al año | Primer año, segundo y siguientes. Incluido en All Products Pack. |

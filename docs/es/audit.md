@@ -1,10 +1,16 @@
+---
+description: "Veredicto anterior: CONFIRMADO CON RESERVAS."
+---
+
 # Resultado de la auditoría
 
 ## Decisión
 
 **Veredicto anterior: CONFIRMADO CON RESERVAS.** Visual Studio Code sigue siendo el ganador equilibrado del modelo para Rust/Tauri, TypeScript/React, Python, GitHub, WSL2, SSH y contenedores. Su rango se solapa con IntelliJ IDEA Ultimate 2026.2, el rival real con más opciones de superarlo. Se confirma la recomendación anterior, pero su ventaja no es robusta.
 
-La nueva shortlist tiene 12 productos: VS Code, IntelliJ IDEA Ultimate, RustRover, PyCharm Professional, VSCodium, Cursor, Zed, Neovim, Sublime Text 4, Devin Desktop, Kiro y Google Antigravity. El cambio principal es reincorporar IDEA tras comprobar sus plugins en 2026.2. Sublime Text sustituye a Theia porque es un editor instalable concreto; Theia sigue en el análisis como framework dependiente de la distribución.
+La nueva shortlist tiene 12 productos: VS Code, IntelliJ IDEA Ultimate, RustRover, PyCharm Professional, VSCodium, Cursor, Zed, Neovim, Sublime Text 4, Devin Desktop, Kiro y Google Antigravity. El cambio principal es reincorporar IDEA tras comprobar sus plugins en 2026.2. Sublime Text ocupa la plaza finalista que se consideró para Theia. Eclipse Theia IDE también es un producto de escritorio descargable para Windows, Linux y macOS; queda fuera porque las fuentes retenidas no demuestran una cobertura sencilla de Rust/Tauri, web, Python, bases de datos, WSL/SSH, contenedores y agentes externos con su conjunto empaquetado de extensiones.
+
+Con el modelo de incertidumbre de este estudio, VS Code qued? primero en el 59 % de las simulaciones combinadas de sensibilidad e IntelliJ IDEA Ultimate en el 41 %. Estas frecuencias describen la estabilidad del modelo editorial elegido; no son probabilidades objetivas de que un IDE sea el mejor en uso real.
 
 ## Ganadores por escenario
 
@@ -44,8 +50,8 @@ Cursor, Devin Desktop, Kiro y Antigravity son entornos completos de edición, no
 | Nova | Sigue activo como editor nativo para Mac con documentación de 2026, pero solo cubre macOS en un perfil multiplataforma. |
 | Lapce | Versión 0.4.6 y nightlies de octubre; hay plugins Rust, TypeScript, Python y SQLite, además de SSH remoto. La documentación remota aún requiere abrir workspaces desde el terminal tras la reescritura de interfaz; WSL tiene una brecha reportada y el DAP/bases/contenedores están menos integrados. Se confirma su salida con una razón corregida, no por falta de lenguajes. |
 | Helix | El último anuncio estable hallado es 25.07; LSP y tree-sitter integrados, pero DAP experimental y menos gestión remota, bases o contenedores para este perfil. |
-| Theia | Framework activo, pero la distribución elegida define funciones, licencia, privacidad y rendimiento; no es un solo producto instalable comparable. |
-| Sublime Text | Reincorporado: Build 4213 y paquetes actuales LSP Rust/TypeScript y DAP/Python justifican una plaza. WSL, Dev Containers y Remote SSH oficiales siguen siendo más débiles. |
+| Eclipse Theia IDE | IDE de escritorio concreto con descargas para Windows, Linux y macOS. Se excluye por adecuación y evidencia: el paquete selecciona sus funciones y las fuentes retenidas no demuestran la pila completa ni las integraciones remotas y de contenedores requeridas. |
+| Sublime Text | Reincorporado: Build 4215 y paquetes actuales LSP Rust/TypeScript y DAP/Python justifican una plaza. WSL, Dev Containers y Remote SSH oficiales siguen siendo más débiles. |
 | Emacs | Técnicamente capaz, pero requiere montar muchos paquetes y configuración; Neovim ya representa el camino local de terminal de esta shortlist. |
 
 ## Rendimiento y opiniones
@@ -56,4 +62,4 @@ Opiniones recientes describen ventajas de refactorización y depuración en JetB
 
 El aviso AWS para Kiro CVE-2026-95985 afecta versiones anteriores a 1.0.242 e indica que se corrigió en 1.0.242. La versión Kiro 1.3.0 revisada es posterior; es un problema histórico corregido, no prueba de exposición actual. Quienes usaron versiones afectadas deben revisar la configuración global según AWS.
 
-Consulta las [decisiones por candidato](../../research/market-scan.md), [notas y escenarios](../scenarios.md), [sensibilidad](../../research/sensitivity.md), [duelos](../../research/duels-top-five.md) y [fuentes](../sources.md).
+Consulta las [decisiones por candidato](https://github.com/Voldigoade/ide-research/blob/main/research/market-scan.md), [notas y escenarios](../scenarios.md), [sensibilidad](https://github.com/Voldigoade/ide-research/blob/main/research/sensitivity.md), [duelos](https://github.com/Voldigoade/ide-research/blob/main/research/duels-top-five.md) y [fuentes](../sources.md).

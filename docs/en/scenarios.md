@@ -1,3 +1,7 @@
+---
+description: "Scenarios change the actual stack mix and the cross-cutting workflow weights."
+---
+
 # Work profiles
 
 Scenarios change the actual stack mix and the cross-cutting workflow weights. Rust-dominant work gives Rust and Tauri most of the stack share, while TypeScript and Python become secondary.

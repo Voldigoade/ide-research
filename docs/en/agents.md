@@ -1,3 +1,7 @@
+---
+description: "Native integrations, plugins, protocols, and external CLIs have different costs and trust boundaries."
+---
+
 # Agents, AI, and models
 
 Native integrations, plugins, protocols, and external CLIs have different costs and trust boundaries. "Supported" means current documentation describes a connection, not equal quality or safety.

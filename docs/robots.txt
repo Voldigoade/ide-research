@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://voldigoade.github.io/ide-research/sitemap.xml

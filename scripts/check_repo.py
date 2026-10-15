@@ -6,7 +6,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 ERRORS = []
-EXCLUDED = {".git", "site", "node_modules", "__pycache__", ".playwright", "test-results", "playwright-report"}
+EXCLUDED = {".git", "site", "node_modules", "__pycache__", ".playwright", "test-results", "playwright-report", ".venv"}
 
 def stable_hash(path):
     raw=path.read_bytes()

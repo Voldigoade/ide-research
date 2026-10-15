@@ -63,6 +63,15 @@
     "evidence": "SOURCED"
   },
   {
+    "id": "antigravity.release",
+    "title": "Google Antigravity downloads: app 2.23.1 and standalone IDE 2.5.5",
+    "publisher": "Google",
+    "kind": "release",
+    "url": "https://antigravity.google/download",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
     "id": "claude.code",
     "title": "Claude Code IDE integrations",
     "publisher": "Anthropic",
@@ -316,19 +325,19 @@
   },
   {
     "id": "devin.acp",
-    "title": "Devin Desktop agent interoperability",
+    "title": "Devin Desktop ACP agent interoperability",
     "publisher": "Cognition",
     "kind": "documentation",
-    "url": "https://docs.devin.ai/work-with-devin/devin-desktop",
+    "url": "https://docs.devin.ai/desktop/acp",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
   {
     "id": "devin.desktop",
-    "title": "Devin Desktop",
+    "title": "Devin Desktop product page",
     "publisher": "Cognition",
     "kind": "product",
-    "url": "https://devin.ai/",
+    "url": "https://devin.ai/desktop",
     "checked": "2026-10-15",
     "evidence": "UNCERTAIN"
   },
@@ -343,19 +352,19 @@
   },
   {
     "id": "fleet.archive",
-    "title": "Fleet product status",
+    "title": "The future of Fleet and JetBrains Air",
     "publisher": "JetBrains",
     "kind": "announcement",
-    "url": "https://blog.jetbrains.com/fleet/2025/12/fleet-end-of-the-road/",
+    "url": "https://blog.jetbrains.com/fleet/2025/12/the-future-of-fleet/",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
   {
     "id": "fleet.end",
-    "title": "Fleet availability announcement",
+    "title": "Fleet product transition announcement",
     "publisher": "JetBrains",
     "kind": "announcement",
-    "url": "https://blog.jetbrains.com/fleet/2025/12/fleet-end-of-the-road/",
+    "url": "https://blog.jetbrains.com/fleet/2025/12/the-future-of-fleet/",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -432,6 +441,15 @@
     "evidence": "SOURCED"
   },
   {
+    "id": "idea.current-release",
+    "title": "IntelliJ IDEA 2026.2.3 stable release",
+    "publisher": "JetBrains",
+    "kind": "release",
+    "url": "https://blog.jetbrains.com/idea/2026/09/intellij-idea-2026-2-3/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
     "id": "idea.db",
     "title": "Database tools",
     "publisher": "JetBrains",
@@ -442,10 +460,10 @@
   },
   {
     "id": "idea.devcontainers",
-    "title": "Dev Containers in IntelliJ-based IDEs",
+    "title": "Dev Containers in IntelliJ IDEA",
     "publisher": "JetBrains",
     "kind": "documentation",
-    "url": "https://www.jetbrains.com/help/idea/dev-containers.html",
+    "url": "https://www.jetbrains.com/help/idea/start-dev-container-inside-ide.html",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -499,7 +517,7 @@
     "title": "Next.js in IntelliJ IDEA",
     "publisher": "JetBrains",
     "kind": "documentation",
-    "url": "https://www.jetbrains.com/help/idea/nextjs.html",
+    "url": "https://www.jetbrains.com/help/idea/next.html",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -517,7 +535,7 @@
     "title": "AI Assistant data handling",
     "publisher": "JetBrains",
     "kind": "privacy",
-    "url": "https://www.jetbrains.com/help/idea/ai-data-sharing.html",
+    "url": "https://www.jetbrains.com/help/ai-assistant/how-we-handle-your-code-and-data.html",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -554,6 +572,15 @@
     "publisher": "JetBrains",
     "kind": "documentation",
     "url": "https://www.jetbrains.com/help/idea/rust-plugin.html",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "idea.unified-distribution",
+    "title": "IntelliJ IDEA single distribution and licensing model",
+    "publisher": "JetBrains",
+    "kind": "documentation",
+    "url": "https://www.jetbrains.com/help/idea/intellij-idea-single-distribution.html",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -613,7 +640,7 @@
   },
   {
     "id": "kiro.release",
-    "title": "Kiro release notes",
+    "title": "Kiro IDE 1.3.0 release notes",
     "publisher": "Amazon Web Services",
     "kind": "release",
     "url": "https://kiro.dev/changelog/",
@@ -622,19 +649,19 @@
   },
   {
     "id": "kiro.security",
-    "title": "Kiro security and command execution",
+    "title": "Kiro privacy and security documentation",
     "publisher": "Amazon Web Services",
     "kind": "security",
-    "url": "https://kiro.dev/docs/security/",
+    "url": "https://kiro.dev/docs/privacy-and-security/",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
   {
     "id": "kiro.terms",
-    "title": "Kiro privacy and service terms",
+    "title": "Kiro data-use terms in AWS Service Terms",
     "publisher": "AWS",
     "kind": "privacy",
-    "url": "https://kiro.dev/privacy/",
+    "url": "https://aws.amazon.com/service-terms/",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -706,7 +733,7 @@
     "title": "Neovim license",
     "publisher": "Neovim",
     "kind": "license",
-    "url": "https://github.com/neovim/neovim/blob/master/LICENSE",
+    "url": "https://raw.githubusercontent.com/neovim/neovim/master/LICENSE.txt",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -716,6 +743,15 @@
     "publisher": "Neovim",
     "kind": "documentation",
     "url": "https://neovim.io/doc/user/lsp",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "nvim.release",
+    "title": "Neovim stable release v0.12.6",
+    "publisher": "Neovim",
+    "kind": "release",
+    "url": "https://github.com/neovim/neovim/releases/tag/v0.12.6",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -814,7 +850,7 @@
     "title": "Neovim license and redistribution terms",
     "publisher": "Neovim contributors",
     "kind": "license",
-    "url": "https://github.com/neovim/neovim/blob/master/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/neovim/neovim/master/LICENSE.txt",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -841,7 +877,7 @@
     "title": "VSCodium MIT license",
     "publisher": "VSCodium contributors",
     "kind": "license",
-    "url": "https://github.com/VSCodium/vscodium/blob/master/LICENSE",
+    "url": "https://raw.githubusercontent.com/VSCodium/vscodium/master/LICENSE",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -851,6 +887,15 @@
     "publisher": "Zed",
     "kind": "pricing",
     "url": "https://zed.dev/pricing",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "pycharm.current-release",
+    "title": "PyCharm 2026.2.3 current stable release",
+    "publisher": "JetBrains",
+    "kind": "release",
+    "url": "https://www.jetbrains.com/pycharm/download/other/?code=PCC&platform=windows",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -868,7 +913,7 @@
     "title": "Dev Containers in PyCharm",
     "publisher": "JetBrains",
     "kind": "documentation",
-    "url": "https://www.jetbrains.com/help/pycharm/dev-containers.html",
+    "url": "https://www.jetbrains.com/help/pycharm/start-dev-container-inside-ide.html",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -887,6 +932,15 @@
     "publisher": "JetBrains",
     "kind": "product",
     "url": "https://www.jetbrains.com/pycharm/features/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
+    "id": "rustrover.current-release",
+    "title": "RustRover 2026.2.4 current stable download",
+    "publisher": "JetBrains",
+    "kind": "release",
+    "url": "https://www.jetbrains.com/rust/download/",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -973,10 +1027,10 @@
   },
   {
     "id": "sublime.release",
-    "title": "Sublime Text 4 Build 4213",
+    "title": "Sublime Text 4 Build 4215",
     "publisher": "Sublime HQ",
     "kind": "release",
-    "url": "https://www.sublimetext.com/blog/articles/sublime-text-4213",
+    "url": "https://www.sublimetext.com/download",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -1009,10 +1063,10 @@
   },
   {
     "id": "tauri.vscode",
-    "title": "Tauri VS Code extension",
+    "title": "Tauri VS Code extension listing",
     "publisher": "Tauri",
     "kind": "documentation",
-    "url": "https://v2.tauri.app/start/ide-plugin/",
+    "url": "https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -1026,17 +1080,26 @@
     "evidence": "SOURCED"
   },
   {
+    "id": "theia.ide-download",
+    "title": "Eclipse Theia IDE downloads for desktop platforms",
+    "publisher": "Eclipse Foundation",
+    "kind": "product",
+    "url": "https://theia-ide.org/",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
     "id": "theia.license",
-    "title": "Eclipse Theia license",
+    "title": "Eclipse Theia IDE license",
     "publisher": "Eclipse Foundation",
     "kind": "license",
-    "url": "https://github.com/eclipse-theia/theia/blob/master/LICENSE",
+    "url": "https://raw.githubusercontent.com/eclipse-theia/theia-ide/master/LICENSE",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
   {
     "id": "theia.release",
-    "title": "Eclipse Theia releases",
+    "title": "Eclipse Theia platform release 1.76.0 (2026-09-24)",
     "publisher": "Eclipse Foundation",
     "kind": "release",
     "url": "https://github.com/eclipse-theia/theia/releases",
@@ -1197,11 +1260,20 @@
     "evidence": "SOURCED"
   },
   {
+    "id": "vscodium.current-release",
+    "title": "VSCodium stable release 1.140.06880",
+    "publisher": "VSCodium",
+    "kind": "release",
+    "url": "https://github.com/VSCodium/vscodium/releases/tag/1.140.06880",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
     "id": "vscodium.extensions",
     "title": "Extension marketplace and compatibility",
     "publisher": "VSCodium",
     "kind": "documentation",
-    "url": "https://github.com/VSCodium/vscodium/blob/master/docs/extensions.md",
+    "url": "https://raw.githubusercontent.com/VSCodium/vscodium/master/docs/extensions.md",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -1233,11 +1305,20 @@
     "evidence": "SOURCED"
   },
   {
+    "id": "zed.current-release",
+    "title": "Zed stable release v1.24.2",
+    "publisher": "Zed Industries",
+    "kind": "release",
+    "url": "https://github.com/zed-industries/zed/releases/tag/v1.24.2",
+    "checked": "2026-10-15",
+    "evidence": "SOURCED"
+  },
+  {
     "id": "zed.local",
     "title": "Use a local model",
     "publisher": "Zed Industries",
     "kind": "documentation",
-    "url": "https://github.com/zed-industries/zed/blob/main/docs/src/ai/use-a-local-model.md",
+    "url": "https://raw.githubusercontent.com/zed-industries/zed/main/docs/src/ai/use-a-local-model.md",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -1270,7 +1351,7 @@
   },
   {
     "id": "zed.release",
-    "title": "Zed stable releases",
+    "title": "Zed stable releases, latest v1.24.2",
     "publisher": "Zed Industries",
     "kind": "release",
     "url": "https://zed.dev/releases/stable",
@@ -1282,7 +1363,7 @@
     "title": "Remote development",
     "publisher": "Zed Industries",
     "kind": "documentation",
-    "url": "https://github.com/zed-industries/zed/blob/main/docs/src/remote-development.md",
+    "url": "https://raw.githubusercontent.com/zed-industries/zed/main/docs/src/remote-development.md",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   },
@@ -1300,7 +1381,7 @@
     "title": "AI agent sandboxing on Windows and WSL",
     "publisher": "Zed Industries",
     "kind": "documentation",
-    "url": "https://github.com/zed-industries/zed/blob/main/docs/src/ai/sandboxing.md",
+    "url": "https://raw.githubusercontent.com/zed-industries/zed/main/docs/src/ai/sandboxing.md",
     "checked": "2026-10-15",
     "evidence": "SOURCED"
   }

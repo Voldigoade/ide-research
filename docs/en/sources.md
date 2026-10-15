@@ -1,7 +1,11 @@
+---
+description: "The structured source register is in data/sources.json."
+---
+
 # Sources and field reports
 
 The structured source register is in [`data/sources.json`](https://github.com/Voldigoade/ide-research/blob/main/data/sources.json). It records stable IDs, title, publisher, source type, URL, checked date, and evidence label. Vendor documentation establishes documented support, not independent performance or privacy claims.
 
-The audit uses official release notes and docs for VS Code 1.142, JetBrains 2026.2 products, VSCodium, Cursor, Zed, Neovim, Theia, Devin Desktop, Kiro, Antigravity, and Tauri. It also uses selected Reddit, Hacker News, and GitHub issue pages as qualitative field reports.
+The audit uses official release notes and docs for VS Code 1.142.0, IntelliJ IDEA 2026.2.3, RustRover 2026.2.4, and PyCharm 2026.2.3, VSCodium, Cursor, Zed 1.24.2, Neovim 0.12.6, Theia, Devin Desktop, Kiro, Antigravity, and Tauri. It also uses selected Reddit, Hacker News, and GitHub issue pages as qualitative field reports.
 
-User reports are self-selected. A ticket proves that one reporter described a specific environment, not how often the problem occurs or whether the current build still has it. See the [curated field report table](../sources.md#retours-de-terrain).
+User reports are self-selected. A ticket proves that one reporter described a specific environment, not how often the problem occurs or whether the current build still has it. See the [curated field report table](https://voldigoade.github.io/ide-research/#retours-de-terrain).

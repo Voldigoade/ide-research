@@ -1,3 +1,7 @@
+---
+description: "Les sources sont gardées dans data/sources.json."
+---
+
 # Sources et retours de terrain
 
 Les sources sont gardées dans [`data/sources.json`](https://github.com/Voldigoade/ide-research/blob/main/data/sources.json). Le fichier associe un identifiant stable, un titre, un éditeur, un type, une URL, une date de vérification et une classe d'évidence. Les sources constructeur établissent les capacités documentées, pas une preuve indépendante de sécurité, confidentialité ou performance.
@@ -27,4 +31,4 @@ Les pages Reddit, Hacker News et GitHub Issues sont des exemples qualitatifs sé
 
 
 
-Les retours qualitatifs et migrations pour le top 5 sont résumés dans [les avis de terrain](../research/community-field-reports.md). Ils servent de pistes, pas de décompte de préférence.
+Les retours qualitatifs et migrations pour le top 5 sont résumés dans [les avis de terrain](https://github.com/Voldigoade/ide-research/blob/main/research/community-field-reports.md). Ils servent de pistes, pas de décompte de préférence.

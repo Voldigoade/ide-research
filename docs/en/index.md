@@ -1,3 +1,7 @@
+---
+description: "Research state: 15 October 2026."
+---
+
 # IDE Research: adversarial audit
 
 **Research state: 15 October 2026.** Ratings are sourced editorial ranges, not benchmarks or objective probabilities.

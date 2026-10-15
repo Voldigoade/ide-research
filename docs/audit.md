@@ -1,3 +1,7 @@
+---
+description: "Verdict précédent : CONFIRMÉ AVEC RÉSERVES."
+---
+
 # Résultat de l'audit
 
 ## Décision
@@ -5,6 +9,8 @@
 **Verdict précédent : CONFIRMÉ AVEC RÉSERVES.** Le premier choix tient pour une personne qui alterne Rust/Tauri, TypeScript/React, Python, GitHub, WSL2, SSH et conteneurs. Son avantage est l'étendue de l'écosystème, la documentation multiplateforme et un bon niveau sans agents IA. Ce n'est pas une victoire robuste sur toutes les notes : les fourchettes recouvrent souvent le deuxième candidat.
 
 **Le concurrent le plus susceptible de battre le premier choix est IntelliJ IDEA Ultimate 2026.2.** Il combine officiellement les plugins Rust et Python avec TypeScript, React, Next.js, outils SQL, Docker, Dev Containers, WSL et Remote Development. Le plugin Rust réutilise le moteur et les fonctions centrales de RustRover. La parité produit complète n'est toutefois pas démontrée pour chaque workflow; les agents ACP peuvent être configurés dans WSL via le plugin JetBrains Air in IDEs. IDEA reste commercial et probablement plus lourd, mais JetBrains a amélioré son mode WSL en 2026.2, avec une mesure fournisseur sur l'accès fichiers qui ne vaut pas comparaison entre IDEs.
+
+Dans le mod?le d'incertitude de cette ?tude, VS Code arrive en t?te dans 59 % des simulations de sensibilit? combin?es et IntelliJ IDEA Ultimate dans 41 %. Ces fr?quences d?crivent la stabilit? du mod?le ?ditorial retenu; elles ne sont pas des probabilit?s objectives qu'un IDE soit le meilleur en situation r?elle.
 
 ## Nouveaux finalistes
 
@@ -103,7 +109,7 @@ Le nombre dépend de l'usage. Les droits de chaque extension sont distincts de l
 ## Sécurité, confidentialité, prix et licence
 
 - Agent local ou cloud: traiter le code comme une donnée sensible. Vérifier les destinations de modèle, la rétention, le mode privacy, les journaux, les fichiers ignorés et le recours humain.
-- Les permissions, approbations d'outils et sandbox réduisent certains risques; elles ne neutralisent pas l'injection de prompt ou les extensions malveillantes.
+- Les permissions, approbations d'outils et sandbox réduisent certains risques; elles ne neutralisent pas les instructions malveillantes dans un dépôt ni les extensions compromises.
 - VS Code, IntelliJ, Cursor, Zed, Kiro et Antigravity ont des composants/services propriétaires même si certaines couches sont open source. VSCodium et Neovim améliorent l'auditabilité locale mais ne garantissent pas la sécurité.
 - VS Code et VSCodium sont utilisables gratuitement; IDE JetBrains Pro/Ultimate et les plans d'agents peuvent être payants; les quotas changent. Cursor/Kiro/Devin/Antigravity dépendent d'offres et crédits évolutifs. Les liens de prix sont dans le registre.
 - Usage commercial: vérifier la licence exacte du produit, les conditions des modèles et les licences d'extensions. RustRover/IDE JetBrains, services IA et plugins n'ont pas un régime unique.
@@ -123,9 +129,10 @@ Les deux principales variables qui changent le classement sont la profondeur Rus
 | Fleet | JetBrains a annoncé la fin de distribution autonome; ce n'est plus un candidat actuel. |
 | Nova | Réservé à macOS et moins convaincant pour un workflow Windows/WSL/Linux. |
 | Lapce | Projet intéressant, mais l'intégration debugger, bases, conteneurs et extensions reste trop incertaine pour le profil; pas de preuve de parité multi-OS complète. |
-| Sublime Text | Ancien motif infirmé: Build 4213 et paquets LSP/DAP actuels justifient sa réintégration; WSL/remote et containers restent ses lacunes. |
+| Sublime Text | Ancien motif infirmé: Build 4215 (2026-09-25) et paquets LSP/DAP actuels justifient sa réintégration; WSL/remote et containers restent ses lacunes. |
 | Helix | Bon éditeur terminal et LSP, mais le débogage et les services intégrés de workflow ne couvrent pas assez la pile. |
 | Air | Environnement d'agents/outils, pas un IDE desktop complet comparable dans ce périmètre. |
 | Emacs | Très capable après configuration; pour ce profil, la charge d'assemblage et le recouvrement avec Neovim réduisent sa probabilité d'être le gagnant. |
-| Zed, Kiro, Antigravity, Devin, Theia, Neovim | Étaient sous-évalués ou rapidement écartés. Réintégrés dans cette shortlist élargie car ils peuvent gagner un scénario distinct ou apporter une comparaison de contrôle/agents. |
+| Zed, Kiro, Antigravity, Devin, Neovim | Réintégrés dans cette shortlist élargie car ils peuvent gagner un scénario distinct ou apporter une comparaison de contrôle/agents. |
+| Eclipse Theia IDE | Application de bureau réellement distribuée sur Windows, Linux et macOS. Exclue pour couverture intégrée et compatibilité de pile insuffisamment établies dans les sources retenues, pas parce que le produit serait un simple framework. |
 

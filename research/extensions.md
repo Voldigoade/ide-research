@@ -38,7 +38,7 @@ Use Open VSX by default. Extension ID and publisher must match expected code. So
 
 These ship more agent/editor features natively, but language intelligence still depends on embedded language servers, extensions, adapters or external tools. Confirm marketplace source, update cadence, license, privacy, model choice, data retention and permission boundaries per plan.
 
-## Sublime Text 4 Build 4213
+## Sublime Text 4 Build 4215
 
 Install Package Control packages LSP, LSP-rust-analyzer, LSP-typescript, a Python LSP such as pyright, Debugger and the Python Debugger package; add adapter/configuration for the desired Rust/Python debugger. Tauri uses the Rust and TypeScript LSPs plus external Cargo/npm tasks. Docker syntax is available by package; no first-party Dev Containers/Remote SSH/WSL workspace service or integrated database suite was established. The SFTP package transfers files and is not equivalent to VS Code Remote SSH. WSL folder access over the Windows share has community-reported file notification limitations.
 

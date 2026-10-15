@@ -1,3 +1,7 @@
+---
+description: "Las integraciones nativas, plugins, protocolos y CLI externos tienen costes y límites de confianza distintos."
+---
+
 # Agentes, IA y modelos
 
 Las integraciones nativas, plugins, protocolos y CLI externos tienen costes y límites de confianza distintos. «Compatible» significa que la documentación actual describe la conexión, no que garantice calidad o seguridad equivalentes.

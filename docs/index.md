@@ -1,3 +1,7 @@
+---
+description: "État de la recherche : 15 octobre 2026."
+---
+
 # IDE Research: audit contradictoire
 
 **État de la recherche : 15 octobre 2026.** Les notes sont des plages d'appréciation sourcées, pas des benchmarks ni des probabilités.

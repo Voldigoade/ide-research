@@ -1,3 +1,7 @@
+---
+description: "Los escenarios cambian la mezcla real de tecnologías y la importancia de los criterios transversales."
+---
+
 # Perfiles de trabajo
 
 Los escenarios cambian la mezcla real de tecnologías y la importancia de los criterios transversales. El perfil Rust da la mayor parte del trabajo a Rust y Tauri, con TypeScript y Python en segundo plano.

@@ -1,3 +1,7 @@
+---
+description: "Selecciona de 2 a 4 productos."
+---
+
 # Comparador
 
 Selecciona de 2 a 4 productos. Las puntuaciones muestran rangos plausibles, no mediciones.

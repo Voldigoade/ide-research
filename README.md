@@ -31,7 +31,7 @@ node --test tests/*.test.cjs
 python -m mkdocs build --strict
 ```
 
-The CI workflow also runs a browser smoke test. No telemetry or network calls are used by the site's chooser or comparator.
+The CI workflow also runs a browser smoke test. The site uses no third-party analytics; the chooser and comparator read the local published data files.
 
 ## Licensing
 

@@ -1,3 +1,7 @@
+---
+description: "Les intégrations natives, plugins, protocoles et CLI externes ont des coûts et frontières de confiance différents."
+---
+
 # Agents, IA et modèles
 
 Les intégrations natives, plugins, protocoles et CLI externes ont des coûts et frontières de confiance différents. Une marque « supporté » signifie uniquement que la documentation actuelle décrit le branchement.

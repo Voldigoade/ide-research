@@ -1,3 +1,7 @@
+---
+description: "Sélectionner de 2 à 4 produits."
+---
+
 # Comparateur
 
 Sélectionner de 2 à 4 produits. Les valeurs montrent l'intervalle plausible, pas un score mesuré. Les critères restent visibles pour que le classement soit inspectable.

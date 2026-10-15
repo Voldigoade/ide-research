@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% set social_title = page.title if page.title else config.site_name %}
+{% set social_description = page.meta.description if page.meta and page.meta.description else config.site_description %}
+{% set page_url = page.url if page else "" %}
+{% set default_url = config.site_url ~ (page_url[3:] if page_url.startswith("en/") or page_url.startswith("es/") else page_url) %}
+{% block extrahead %}
+  {{ super() }}
+  <link rel="alternate" hreflang="x-default" href="{{ default_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ social_title }}">
+  <meta property="og:description" content="{{ social_description }}">
+  <meta property="og:image" content="{{ config.site_url }}assets/social-preview.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ social_title }}">
+  <meta name="twitter:description" content="{{ social_description }}">
+  <meta name="twitter:image" content="{{ config.site_url }}assets/social-preview.svg">
+  <script>
+    (() => {
+      const sitePath = new URL("{{ config.site_url }}").pathname;
+      const rootSitemap = new URL(sitePath + "sitemap.xml", location.origin).href;
+      const originalOpen = XMLHttpRequest.prototype.open;
+      XMLHttpRequest.prototype.open = function(method, url, ...rest) {
+        try {
+          if (new URL(url, location.href).pathname.endsWith("/sitemap.xml")) url = rootSitemap;
+        } catch {}
+        return originalOpen.call(this, method, url, ...rest);
+      };
+    })();
+  </script>
+{% endblock %}

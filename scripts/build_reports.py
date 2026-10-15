@@ -13,7 +13,7 @@ sources = json.loads((DATA / "sources.json").read_text(encoding="utf-8"))
 results = json.loads((OUT / "model-results.json").read_text(encoding="utf-8"))
 source_by_id = {x["id"]: x for x in sources}
 criterion_ids = [x["id"] for x in criteria]
-EXCLUDED = {".git", "site", "node_modules", "__pycache__", ".playwright", "test-results", "playwright-report"}
+EXCLUDED = {".git", "site", "node_modules", "__pycache__", ".playwright", "test-results", "playwright-report", ".venv"}
 
 def stable_bytes(path):
     raw = path.read_bytes()
@@ -132,8 +132,22 @@ def build_register():
     lines = ["# Evidence register", "", f"Records checked for this audit: 2026-10-15. Total: {len(sources)}. The checked date means a source was included in the current source set; it does not guarantee future URL availability or independent verification.", "", "| ID | Publisher | Type | Evidence | Title | URL |", "|---|---|---|---|---|---|"]
     for s in sources: lines.append(f"| {s['id']} | {s['publisher']} | {s['kind']} | {s['evidence']} | {s['title']} | [open]({s['url']}) |")
     (OUT / "evidence-register.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    access = {"checked_on":"2026-10-15","method":"Scheduled HEAD checks report inaccessible pages for manual review; blocks and rate limits are not proof of removal.","status":{s["id"]:"not_independently_reachable_checked" for s in sources}}
-    (OUT / "source-accessibility.json").write_text(json.dumps(access,indent=2)+"\n",encoding="utf-8")
+    access_path = OUT / "source-accessibility.json"
+    expected_ids = {source["id"] for source in sources}
+    source_date = max((source.get("checked", "") for source in sources), default="")
+    try:
+        previous = json.loads(access_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        previous = {}
+    if previous.get("checked_on") == source_date and set(previous.get("status", {})) == expected_ids:
+        access = previous
+    else:
+        access = {
+            "checked_on": source_date,
+            "method": "Not checked in this build. Run scripts/check_links.py for HTTP reachability checks.",
+            "status": {source["id"]: "not_checked" for source in sources},
+        }
+    access_path.write_text(json.dumps(access, indent=2)+"\n", encoding="utf-8")
 
 def build_scenarios():
     names = {p["id"]:p["name"] for p in products}
@@ -185,7 +199,7 @@ This is a continuation of the earlier approximately 40-candidate scan. The exist
 
 The updated shortlist deliberately has twelve candidates to preserve likely scenario winners: VS Code, IntelliJ IDEA Ultimate, RustRover, PyCharm Professional, VSCodium, Cursor, Zed, Neovim, Sublime Text 4, Devin Desktop, Kiro, and Google Antigravity. IDEA is restored as a leading challenger. RustRover and PyCharm remain because their dedicated language workflows can win specialist profiles. Agentic products are retained only as complete editing environments, not on agent quality alone. VSCodium, Zed, Neovim, and Sublime Text remain for local control, native editing, terminal workflows, or extensibility.
 
-Fleet is a confirmed exit because standalone distribution ended. Nova is macOS-only, so it cannot serve the cross-platform Windows/WSL/Linux profile. Lapce, Helix, Emacs, and an independent Air entry have larger gaps or represent an agent layer rather than a code IDE. Theia remains outside the final because its distribution-dependent capability profile is not one installable product. Sublime Text was reinstated after checking its current LSP and DAP packages; see `market-scan.md`.
+Fleet is a confirmed exit: JetBrains ended standalone Fleet downloads on 2025-12-22 and said in May 2026 that Fleet had evolved into Air. Air remains an agent system, with Air in IDEs only an early-access plugin in October 2026, rather than a replacement Rust/Python/TypeScript language engine. Nova is macOS-only, so it cannot serve the cross-platform Windows/WSL/Linux profile. Lapce, Helix, Emacs, and an independent Air entry have larger gaps or represent an agent layer rather than a code IDE. Eclipse Theia IDE is a real downloadable desktop product for Windows, Linux, and macOS. It remains outside the final twelve because the retained sources do not establish low-friction coverage of the complete required stack and remote/container integrations in the packaged product. Sublime Text was reinstated after checking its current LSP and DAP packages; see `market-scan.md`.
 
 ## JetBrains, evaluated separately
 

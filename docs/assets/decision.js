@@ -41,7 +41,7 @@ function renderScenario(panel,data,scenarioId){
  const summary=ID("scenario-summary");
  if(summary) summary.textContent=t.mix+": "+mix+". "+t.uncertain;
  const target=ID("scenario-results");
- if(target) target.innerHTML="<table><thead><tr><th>"+t.rank+"</th><th>Environment</th><th>"+t.range+"</th></tr></thead><tbody>"+rows.map((x,i)=>"<tr><td>"+(i+1)+"</td><th scope=\"row\">"+x.env.name+"</th><td>"+displayRange(x.range)+"</td></tr>").join("")+"</tbody></table><p>"+t.sources+": <a href=\"method.md\">"+(lang==="fr"?"méthode":lang==="es"?"método":"method")+"</a>, <a href=\"products.md\">"+(lang==="fr"?"profils":lang==="es"?"perfiles":"profiles")+"</a>.</p>";
+ if(target) target.innerHTML="<div class=\"table-scroll\"><table><thead><tr><th>"+t.rank+"</th><th>Environment</th><th>"+t.range+"</th></tr></thead><tbody>"+rows.map((x,i)=>"<tr><td>"+(i+1)+"</td><th scope=\"row\">"+x.env.name+"</th><td>"+displayRange(x.range)+"</td></tr>").join("")+"</tbody></table></div><p>"+t.sources+": <a href=\"method.md\">"+(lang==="fr"?"méthode":lang==="es"?"método":"method")+"</a>, <a href=\"products.md\">"+(lang==="fr"?"profils":lang==="es"?"perfiles":"profiles")+"</a>.</p>";
 }
 function renderCompare(panel,data,scenarioId,selected){
  const scenario=data.scenarios.find(x=>x.id===scenarioId), lang=getLang(panel), t=langs[lang]||langs.en, l=labels[lang]||labels.en;

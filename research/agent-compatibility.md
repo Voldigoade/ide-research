@@ -36,6 +36,6 @@ This combination reverses early elimination and makes IDEA Ultimate a serious #2
 - VSCodium: Open VSX alternatives; verify publisher identity and Microsoft service dependencies.
 - Zed: language servers, agent, local model or remote provider; SQL and containers may need external tools.
 - Neovim: LSP, DAP, completion, formatter, Git, SQL, and optional CLI agent. About 8 to 12 components.
-- Devin, Kiro, and Antigravity: verify distribution, agent source, permission defaults, provider, quota, and data terms. Theia is a distribution-dependent framework rather than one fixed IDE candidate; Air is assessed as a JetBrains agent layer, not an independent code engine.
+- Devin, Kiro, and Antigravity: verify distribution, agent source, permission defaults, provider, quota, and data terms. Eclipse Theia IDE is a standalone desktop product based on Theia Platform with a selected feature set; this review did not establish full stack coverage for its packaged defaults. JetBrains Air remains an agent layer, not an independent code engine.
 
 Extensions and agents can read files, execute code, launch processes, and contact services. Check their publisher, source, license, update channel, and scope. MCP and ACP standardize connections; they do not certify agent security.

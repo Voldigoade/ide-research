@@ -1,3 +1,7 @@
+---
+description: "Research state: 15 October 2026."
+---
+
 # Method and uncertainty
 
 Research state: 15 October 2026. This audit retains the previous market scan and collected sources, then revisits early exclusions and current product changes. Official product sources establish documented capabilities, not independent proof of quality, privacy, security, or speed. Forums and issues are field reports, not representative samples.

@@ -1,3 +1,7 @@
+---
+description: "Select 2 to 4 products."
+---
+
 # Comparator
 
 Select 2 to 4 products. Scores display plausible ranges, not measurements.

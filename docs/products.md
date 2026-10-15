@@ -1,3 +1,7 @@
+---
+description: "La shortlist comprend douze environnements distincts."
+---
+
 # Produits et assemblages
 
 La shortlist comprend douze environnements distincts. L'outil compare les plages stockées dans [les données structurées](https://github.com/Voldigoade/ide-research/tree/main/data).

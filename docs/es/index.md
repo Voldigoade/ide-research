@@ -1,3 +1,7 @@
+---
+description: "Estado: 15 de octubre de 2026."
+---
+
 # IDE Research: auditoría contradictoria
 
 **Estado: 15 de octubre de 2026.** Las puntuaciones son intervalos editoriales con fuentes, no benchmarks ni probabilidades objetivas.

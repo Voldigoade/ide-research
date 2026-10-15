@@ -1,3 +1,7 @@
+---
+description: "La investigación refleja el 15 de octubre de 2026."
+---
+
 # Método e incertidumbre
 
 La investigación refleja el 15 de octubre de 2026. Conserva el barrido previo y las fuentes recopiladas, y vuelve a examinar candidatos descartados y cambios recientes. Las fuentes oficiales prueban las funciones documentadas, no la calidad real, privacidad, seguridad o velocidad. Los foros e issues son testimonios, no muestras representativas.

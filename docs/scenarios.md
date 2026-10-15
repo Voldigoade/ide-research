@@ -1,3 +1,7 @@
+---
+description: "Les scénarios modifient la composition de la pile et l'importance des dimensions transversales."
+---
+
 # Profils de travail
 
 Les scénarios modifient la composition de la pile et l'importance des dimensions transversales. Le scénario Rust met bien plus de poids sur Rust et Tauri que sur le web; ce n'est pas une simple hausse de poids d'un critère généraliste.

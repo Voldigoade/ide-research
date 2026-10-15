@@ -1,3 +1,7 @@
+---
+description: "L'état est vérifié au 15 octobre 2026."
+---
+
 # Méthode et incertitude
 
 ## Date et méthode de travail

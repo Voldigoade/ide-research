@@ -3,7 +3,7 @@
     "id": "vscode",
     "name": "Visual Studio Code",
     "type": "native editor",
-    "version": "1.142 stable",
+    "version": "1.142.0 stable (2026-10-14)",
     "checked": "2026-10-15",
     "architecture": "Microsoft build of Code OSS with Microsoft services and marketplace",
     "scores": "8-9,7.5-9.5,9-10,8-9,6.5-8.5,7.5-9.5,8.5-10,9-10,9-10,8.5-10,8.5-10,7.5-9.5,8-9,6.5-8.5,9.5-10,8-9,7-9,5-8,5-8,5-8,8-9,7.5-9.5,8.5-9.5,8.5-9.5,8.5-9.5,9-10,6-8",
@@ -55,7 +55,7 @@
     "id": "idea",
     "name": "IntelliJ IDEA Ultimate",
     "type": "integrated IDE",
-    "version": "2026.2",
+    "version": "2026.2.3 stable (checked 2026-10-15)",
     "checked": "2026-10-15",
     "architecture": "JetBrains platform with official Rust and Python plugins and built-in JVM/web tooling",
     "scores": "8-9,6.5-8.5,9-10,9-10,9-10,9-9,8-9,8-8,8-9,9-9,6.5-8.5,8.5-9.5,9-10,8.5-10,8-8,8-9,8-9,5-8,6-9,4-8,7.5-9.5,7-9,7.5-8.5,7.5-8.5,7.5-8.5,4-6,6-8",
@@ -83,7 +83,9 @@
       "idea.rust",
       "idea.web",
       "idea.wsl",
-      "idea.wsl-benchmark"
+      "idea.wsl-benchmark",
+      "idea.current-release",
+      "idea.unified-distribution"
     ],
     "notes": "The official Rust plugin states feature parity with RustRover, with setup and product-level differences in the comparison table. The Python plugin implements PyCharm features. IDEA 2026.2 adds native WSL mode; JetBrains reports a five-run WSL file-I/O test against its previous 9P path, not a cross-IDE benchmark. AI Assistant supports Codex and Claude Agent, ACP agents, Copilot through its Marketplace plugin, MCP client/server, BYOK, and local Ollama/LM Studio models. Local models cannot run agents, and ACP agents can be configured in WSL through JetBrains Air in IDEs. Commercial license and separate provider terms apply. JetBrains Air in IDEs is a separate early-access plugin as of 2026-10-15; it supports local/ACP agents and documents WSL execution, but is not a replacement for the IDE code engine.",
     "confidence": {
@@ -120,7 +122,7 @@
     "id": "rustrover",
     "name": "RustRover",
     "type": "integrated Rust IDE",
-    "version": "2026.2",
+    "version": "2026.2.4 stable (checked 2026-10-15)",
     "checked": "2026-10-15",
     "architecture": "JetBrains Rust IDE with integrated Rust engine and JetBrains platform",
     "scores": "9-10,9-10,7-8,4.5-6.5,6.5-8.5,8-8,6.5-8.5,7-8,8-9,8.5-9.5,6.5-8.5,9-9,9-10,8.5-10,8-8,6-8,7-9,5-8,5-8,4-8,8-8,7.5-9.5,7.5-8.5,7.5-8.5,7.5-8.5,5-7,6.5-8.5",
@@ -133,7 +135,8 @@
       "idea.wsl",
       "idea.remote",
       "idea.pricing",
-      "tauri.docs"
+      "tauri.docs",
+      "rustrover.current-release"
     ],
     "notes": "Best focused Rust/Tauri path in the shortlist. It supports meaningful JS/TS work, but the sources do not establish full Next.js parity with IntelliJ IDEA Ultimate or PyCharm Pro. Python is not the equivalent of the dedicated PyCharm experience.",
     "confidence": {
@@ -170,7 +173,7 @@
     "id": "pycharm",
     "name": "PyCharm Professional",
     "type": "integrated Python IDE",
-    "version": "2026.2",
+    "version": "2026.2.3 stable (checked 2026-10-15)",
     "checked": "2026-10-15",
     "architecture": "JetBrains Python IDE with web, database, container and remote features",
     "scores": "6-7,6.5-8.5,8-9,10-10,9-10,8.5-9.5,9-9,9-9,9-9,8.5-9.5,7.5-8.5,9.5-10,10-10,8.5-10,8-8,6-8,7-9,5-8,6-9,4-8,7.5-9.5,7.5-9.5,8.5-9.5,8.5-9.5,8.5-9.5,4-6,6.5-8.5",
@@ -182,7 +185,8 @@
       "idea.web",
       "idea.wsl",
       "idea.remote",
-      "idea.pricing"
+      "idea.pricing",
+      "pycharm.current-release"
     ],
     "notes": "Strongest Python-centric JetBrains choice and includes broad web/database/remote tooling. Rust is plugin-based and secondary to RustRover. Paid Pro license for commercial use.",
     "confidence": {
@@ -219,7 +223,7 @@
     "id": "vscodium",
     "name": "VSCodium",
     "type": "community-built Code OSS distribution",
-    "version": "1.140.06880",
+    "version": "1.140.06880 stable (2026-10-13)",
     "checked": "2026-10-15",
     "architecture": "Community builds of Code OSS with telemetry removed and Open VSX by default",
     "scores": "8-9,7.5-9.5,8-9,8-9,6-8,7-9,7.5-9.5,8-9,8-9,7.5-9.5,8.5-10,7.5-9.5,8-9,6.5-8.5,8-9,6-8,7-9,5-8,7.5-9.5,5-8,7-9,7.5-9.5,7.5-9.5,8.5-9.5,7.5-9.5,8.5-10,8-10",
@@ -231,7 +235,8 @@
       "vscode.js",
       "vscode.remote",
       "vscode.wsl",
-      "vscode.containers"
+      "vscode.containers",
+      "vscodium.current-release"
     ],
     "notes": "Retains much of the VS Code editor experience with different build, telemetry, and marketplace defaults. Some Microsoft-published extensions and services are not available or need manual configuration. Privacy benefit is narrower than a full local threat-model guarantee.",
     "confidence": {
@@ -314,7 +319,7 @@
     "id": "zed",
     "name": "Zed",
     "type": "native editor with agent integrations",
-    "version": "1.22.0 stable",
+    "version": "1.24.2 stable (2026-10-14)",
     "checked": "2026-10-15",
     "architecture": "Native Rust editor with open-source client and proprietary hosted services",
     "scores": "7.5-9.5,7-8,7.5-9.5,6.5-8.5,5-7,6-8,6-8,7-8,8-9,7.5-9.5,7.5-8.5,6.5-8.5,6.5-8.5,6-8,7.5-8.5,8-9,9-10,5-8,6-9,4-9,6-8,7.5-9.5,6-8,7.5-9.5,8.5-9.5,7-9,7-9",
@@ -325,7 +330,8 @@
       "zed.local",
       "zed.remote",
       "zed.wsl-sandbox",
-      "tauri.docs"
+      "tauri.docs",
+      "zed.current-release"
     ],
     "notes": "Modern native editor with local model options, remote work and external agent protocols. Database and container workflows are less integrated than JetBrains. Recent Windows/WSL and memory issue reports are field reports, not prevalence estimates.",
     "confidence": {
@@ -362,7 +368,7 @@
     "id": "neovim",
     "name": "Neovim",
     "type": "terminal editor",
-    "version": "0.11 series",
+    "version": "0.12.6 stable (2026-10-09)",
     "checked": "2026-10-15",
     "architecture": "Open-source modal editor with built-in LSP client and community plugins",
     "scores": "8-9,6.5-8.5,7.5-9.5,7.5-9.5,6-8,5-7,3-5,7.5-8.5,7.5-9.5,7.5-9.5,9.5-10,5-7,6-8,6-8,8.5-10,6-8,6-9,5-9,8.5-10,5-9,7.5-9.5,6-9,6-8,8.5-10,7.5-9.5,9.5-10,8.5-10",
@@ -406,7 +412,7 @@
     "id": "sublime",
     "name": "Sublime Text 4",
     "type": "native code editor with package ecosystem",
-    "version": "Build 4213 (2026-09-21)",
+    "version": "Build 4215 (2026-09-25)",
     "checked": "2026-10-15",
     "architecture": "Proprietary lightweight editor; Package Control extensions; LSP and DAP provided by separate packages",
     "scores": "7-8,5-7,7-8,7-8,3-5,3-5,2-4,3-5,4-6,6-8,7.5-9.5,5-7,6-8,5-7,7-9,4-6,4-7,5-8,5-8,5-9,8-9,7.5-9.5,7.5-9.5,7.5-9.5,7.5-9.5,8-9,6-8",
@@ -419,7 +425,7 @@
       "sublime.wsl",
       "sublime.pricing"
     ],
-    "notes": "Current Build 4213 adds a built-in terminal command surface. Rust, TypeScript and Python intelligence can be assembled with third-party LSP packages; graphical debugging uses a separate DAP package. No first-party WSL, Dev Containers, full remote SSH workspace, database IDE, or agent layer was established in the reviewed sources. WSL UNC editing is possible but community reports filesystem notification/performance limitations. Performance score is an architectural and user-report inference, not a benchmark.",
+    "notes": "Current Build 4215 was released on 2026-09-25. The built-in terminal, separate LSP and DAP packages, and Rust, TypeScript, and Python language support form a configurable stack. No first-party WSL, Dev Containers, full remote SSH workspace, database IDE, or agent layer was established in the reviewed sources. WSL UNC editing is possible, but community reports describe filesystem-notification and performance limitations. Performance score is an architectural and user-report inference, not a benchmark.",
     "confidence": {
       "rust": "high",
       "tauri": "low",
@@ -500,7 +506,7 @@
     "id": "kiro",
     "name": "Kiro",
     "type": "agentic editor",
-    "version": "1.3.0",
+    "version": "1.3.0 stable (2026-10-13)",
     "checked": "2026-10-15",
     "architecture": "AWS editor based on Code OSS with agent and spec-driven workflow",
     "scores": "5-7,5-7,7.5-9.5,7.5-9.5,6-8,6.5-8.5,6-8,6-8,6-8,7.5-8.5,7.5-8.5,6.5-8.5,7-8,6-8,6.5-8.5,8.5-10,5-8,4-8,2-7,3-8,6-8,6.5-8.5,7.5-8.5,7-9,7-9,3-7,4-6",
@@ -546,16 +552,17 @@
     "id": "antigravity",
     "name": "Google Antigravity",
     "type": "AI-native IDE",
-    "version": "2.16 series",
+    "version": "Standalone IDE 2.5.5; companion app 2.23.1 (checked 2026-10-15)",
     "checked": "2026-10-15",
     "architecture": "Standalone AI development environment with editor and agent orchestration",
     "scores": "6-8,6-8,7.5-9.5,7.5-9.5,6-8,6.5-8.5,6-8,7-8,6.5-8.5,7.5-8.5,6.5-8.5,6.5-8.5,6.5-8.5,6-8,7-8,8.5-10,5-7,4-8,3-8,3-8,6-8,6-8,7-9,7-9,7.5-8.5,3-7,3-5",
     "sources": [
       "antigravity.platform",
       "antigravity.extensions",
-      "vscode.wsl"
+      "vscode.wsl",
+      "antigravity.release"
     ],
-    "notes": "A complete editor and agent surface with growing extension support. Windows/WSL support exists, but stability, privacy boundaries, portability and non-AI workflow merit conservative ratings.",
+    "notes": "The scored candidate is the standalone Antigravity IDE. The current official download page lists separate versions for the companion Antigravity app (2.23.1) and standalone IDE (2.5.5), with Windows, Linux, and macOS builds. A complete editor and agent surface with growing extension support. Windows/WSL support exists, but stability, privacy boundaries, portability, and usefulness without agents merit conservative ratings.",
     "confidence": {
       "rust": "low",
       "tauri": "low",
