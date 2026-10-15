@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">IDE Research</title><desc id="desc">Evidence-linked comparison of developer environments for Rust, Tauri, TypeScript and Python.</desc>
+<rect width="1280" height="640" fill="#f4f2e9"/><rect x="0" y="0" width="24" height="640" fill="#12665e"/>
+<g fill="none" stroke="#c4d0cb" stroke-width="2"><path d="M820 96h320v96H820zM820 218h320v96H820zM820 340h320v96H820zM820 462h320v96H820z"/><path d="M980 192v26m0 96v26m0 96v26"/></g>
+<g fill="#184b47"><circle cx="872" cy="144" r="12"/><circle cx="872" cy="266" r="12"/><circle cx="872" cy="388" r="12"/><circle cx="872" cy="510" r="12"/></g>
+<g font-family="Arial, sans-serif" fill="#202a2d"><text x="96" y="120" font-size="22" font-weight="700" letter-spacing="4" fill="#12665e">EVIDENCE ATLAS / 2026</text><text x="96" y="225" font-size="68" font-weight="700">IDE Research</text><text x="96" y="285" font-size="30" fill="#526267">A sourced audit of developer environments</text><text x="96" y="360" font-size="24">Rust + Tauri · TypeScript · Python</text><text x="96" y="548" font-size="20" fill="#526267">Windows / WSL2 / Linux / macOS</text>
+<text x="904" y="151" font-size="20" font-weight="700">EDITOR</text><text x="904" y="273" font-size="20" font-weight="700">LANGUAGE ENGINE</text><text x="904" y="395" font-size="20" font-weight="700">RUNTIME</text><text x="904" y="517" font-size="20" font-weight="700">AGENT</text></g></svg>

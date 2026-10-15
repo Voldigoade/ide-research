@@ -1,0 +1,54 @@
+site_name: IDE Research
+site_url: https://voldigoade.github.io/ide-research/
+site_description: Evidence-linked comparison of developer environments for a Rust, Tauri, TypeScript, and Python workflow.
+repo_url: https://github.com/Voldigoade/ide-research
+repo_name: Voldigoade/ide-research
+strict: true
+theme:
+  name: material
+  custom_dir: overrides
+  language: fr
+  font: false
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: blue
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: blue
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: fr
+          default: true
+          name: Français
+        - locale: en
+          name: English
+        - locale: es
+          name: Español
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Voldigoade/ide-research
+extra_css:
+  - assets/styles.css
+extra_javascript:
+  - assets/decision.js
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
